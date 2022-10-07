@@ -1,0 +1,12 @@
+LB_CODE,LB_HAB_FR,CD_HAB
+A,Habitats marins,79
+B,Habitats côtiers,81
+C,Eaux de surface continentales,80
+D,Tourbières hautes et bas-marais,82
+E,"Prairies ; terrains dominés par des herbacées non graminoïdes, des mousses ou des lichens",83
+F,"Landes, fourrés et toundras",84
+G,"Boisements, forêts et autres habitats boisés",85
+H,Habitats continentaux sans végétation ou à végétation clairsemée,87
+I,"Habitats agricoles, horticoles et domestiques régulièrement ou récemment cultivés",88
+J,"Zones bâties, sites industriels et autres habitats artificiels",89
+X,Complexes d'habitats,86

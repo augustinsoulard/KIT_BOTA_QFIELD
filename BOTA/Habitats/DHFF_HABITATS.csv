@@ -1,0 +1,133 @@
+CD_UE;CODE_AS2;LB_NIVEAU1;LB_NIVEAU2;LB_HABDH_FR
+"1110";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Bancs de sable à faible couverture permanente d'eau marine
+"1120";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Herbiers de posidonies (Posidonion oceanicae)
+"1130";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Estuaires
+"1140";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Replats boueux ou sableux exondés à marée basse
+"1150";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Lagunes côtières
+"1160";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Grandes criques et baies peu profondes
+"1170";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Récifs
+"1210";A;Habitats côtiers et végétations halophytiques;Falaises maritimes et plages de galets;Végétation annuelle des laissés de mer
+"1220";A;Habitats côtiers et végétations halophytiques;Falaises maritimes et plages de galets;Végétation vivace des rivages de galets
+"1230";A;Habitats côtiers et végétations halophytiques;Falaises maritimes et plages de galets;Falaises avec végétation des côtes atlantiques et baltiques
+"1240";A;Habitats côtiers et végétations halophytiques;Falaises maritimes et plages de galets;Falaises avec végétation des côtes méditerranéennes avec Limonium spp. endémiques
+"1310";A;Habitats côtiers et végétations halophytiques;Marais et prés salés atlantiques et continentaux;Végétations pionnières à Salicornia et autres espèces annuelles des zones boueuses et sableuses
+"1320";A;Habitats côtiers et végétations halophytiques;Marais et prés salés atlantiques et continentaux;Prés à Spartina (Spartinion maritimae)
+"1330";A;Habitats côtiers et végétations halophytiques;Marais et prés salés atlantiques et continentaux;Prés-salés atlantiques (Glauco-Puccinellietalia maritimae)
+"1340";A;Habitats côtiers et végétations halophytiques;Marais et prés salés atlantiques et continentaux;Prés-salés intérieurs
+"1410";A;Habitats côtiers et végétations halophytiques;Marais et prés salés méditerranéens et thermo-atla;Prés-salés méditerranéens (Juncetalia maritimi)
+"1420";A;Habitats côtiers et végétations halophytiques;Marais et prés salés méditerranéens et thermo-atla;Fourrés halophiles méditerranéens et thermo-atlantiques (Sarcocornietea fruticosi)
+"1430";A;Habitats côtiers et végétations halophytiques;Marais et prés salés méditerranéens et thermo-atla;Fourrés halonitrophiles (Pegano-Salsoletea)
+"1510";A;Habitats côtiers et végétations halophytiques;Steppes intérieures halophiles et gypsophiles;Steppes salées méditerranéennes (Limonietalia)
+"2110";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";Dunes mobiles embryonnaires
+"2120";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";Dunes mobiles du cordon littoral à Ammophila arenaria (dunes blanches)
+"2130";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";Dunes côtières fixées à végétation herbacée (dunes grises)
+"2150";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";Dunes fixées décalcifiées atlantiques (Calluno-Ulicetea)
+"2160";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";Dunes à Hippophaë rhamnoides
+"2170";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";Dunes à Salix repens spp. argentea (Salicion arenariae)
+"2180";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";"Dunes boisées des régions atlantique, continentale et boréale"
+"2190";B;Dunes maritimes et intérieures;"Dunes maritimes des rivages atlantiques, de la mer";Dépressions humides intradunaires
+"2210";B;Dunes maritimes et intérieures;Dunes maritimes des rivages méditerranéens;Dunes fixées du littoral du Crucianellion maritimae
+"2230";B;Dunes maritimes et intérieures;Dunes maritimes des rivages méditerranéens;Dunes avec pelouses des Malcolmietalia
+"2240";B;Dunes maritimes et intérieures;Dunes maritimes des rivages méditerranéens;Dunes avec pelouses des Brachypodietalia et des plantes annuelles
+"2250";B;Dunes maritimes et intérieures;Dunes maritimes des rivages méditerranéens;Dunes littorales à Juniperus spp.
+"2260";B;Dunes maritimes et intérieures;Dunes maritimes des rivages méditerranéens;Dunes à végétation sclérophylle des Cisto-Lavanduletalia
+"2270";B;Dunes maritimes et intérieures;Dunes maritimes des rivages méditerranéens;Dunes avec forêts à Pinus pinea et/ou Pinus pinaster
+"2330";B;Dunes maritimes et intérieures;"Dunes intérieures, anciennes et décalcifiées";Dunes intérieures avec pelouses ouvertes à Corynephorus et Agrostis
+"3110";C;Habitats d'eaux douces;Eaux dormantes;Eaux oligotrophes très peu minéralisées des plaines sablonneuses (Littorelletalia uniflorae)
+"3120";C;Habitats d'eaux douces;Eaux dormantes;Eaux oligotrophes très peu minéralisées sur sols généralement sableux de l'ouest méditerranéen à Isoëtes spp.
+"3130";C;Habitats d'eaux douces;Eaux dormantes;"Eaux stagnantes, oligotrophes à mésotrophes avec végétation des Littorelletea uniflorae et/ou des Isoeto-Nanojuncetea"
+"3140";C;Habitats d'eaux douces;Eaux dormantes;Eaux oligomésotrophes calcaires avec végétation benthique à Chara spp.
+"3150";C;Habitats d'eaux douces;Eaux dormantes;Lacs eutrophes naturels avec végétation du Magnopotamion ou de l'Hydrocharition
+"3160";C;Habitats d'eaux douces;Eaux dormantes;Lacs et mares dystrophes naturels
+"3170";C;Habitats d'eaux douces;Eaux dormantes;Mares temporaires méditerranéennes
+"3220";C;Habitats d'eaux douces;Eaux courantes;Rivières alpines avec végétation ripicole herbacée
+"3230";C;Habitats d'eaux douces;Eaux courantes;Rivières alpines avec végétation ripicole ligneuse à Myricaria germanica
+"3240";C;Habitats d'eaux douces;Eaux courantes;Rivières alpines avec végétation ripicole ligneuse à Salix elaeagnos
+"3250";C;Habitats d'eaux douces;Eaux courantes;Rivières permanentes méditerranéennes à Glaucium flavum
+"3260";C;Habitats d'eaux douces;Eaux courantes;Rivières des étages planitiaire à montagnard avec végétation du Ranunculion fluitantis et du Callitricho-Batrachion
+"3270";C;Habitats d'eaux douces;Eaux courantes;Rivières avec berges vaseuses avec végétation du Chenopodion rubri p.p. et du Bidention p.p.
+"3280";C;Habitats d'eaux douces;Eaux courantes;Rivières permanentes méditerranéennes du Paspalo-Agrostidion avec rideaux boisés riverains à Salix et Populus alba
+"3290";C;Habitats d'eaux douces;Eaux courantes;Rivières intermittentes méditerranéennes du Paspalo-Agrostidion
+"4010";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Landes humides atlantiques septentrionales à Erica tetralix
+"4020";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Landes humides atlantiques tempérées à Erica ciliaris et Erica tetralix
+"4030";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Landes sèches européennes
+"4040";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Landes sèches atlantiques littorales à Erica vagans
+"4060";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Landes alpines et boréales
+"4070";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Fourrés à Pinus mugo et Rhododendron hirsutum (Mugo-Rhododendretum hirsuti)
+"4080";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Fourrés de Salix spp. subarctiques
+"4090";D;Landes et fourrés tempérés;Landes et fourrés tempérés;Landes oroméditerranéennes endémiques à genêts épineux
+"5110";E;Fourrés sclérophylles (matorrals);Fourrés subméditerranéens et tempérés;Formations stables xérothermophiles à Buxus sempervirens des pentes rocheuses (Berberidion p.p.)
+"5120";E;Fourrés sclérophylles (matorrals);Fourrés subméditerranéens et tempérés;Formations montagnardes à Cytisus purgans
+"5130";E;Fourrés sclérophylles (matorrals);Fourrés subméditerranéens et tempérés;Formations à Juniperus communis sur landes ou pelouses calcaires
+"5210";E;Fourrés sclérophylles (matorrals);Matorrals arborescents méditerranéens;Matorrals arborescents à Juniperus spp.
+"5310";E;Fourrés sclérophylles (matorrals);Fourrés thermoméditerranéens et présteppiques;Taillis de Laurus nobilis
+"5320";E;Fourrés sclérophylles (matorrals);Fourrés thermoméditerranéens et présteppiques;Formations basses d'euphorbes près des falaises
+"5330";E;Fourrés sclérophylles (matorrals);Fourrés thermoméditerranéens et présteppiques;Fourrés thermoméditerranéens et prédésertiques
+"5410";E;Fourrés sclérophylles (matorrals);Phryganes;Phryganes ouest-méditerranéennes des sommets des falaises (Astralago-Plantaginetum subulatae)
+"6110";F;Formations herbeuses naturelles et semi-naturelles;Pelouses naturelles;Pelouses rupicoles calcaires ou basiphiles de l'Alysso-Sedion albi
+"6120";F;Formations herbeuses naturelles et semi-naturelles;Pelouses naturelles;Pelouses calcaires de sables xériques
+"6130";F;Formations herbeuses naturelles et semi-naturelles;Pelouses naturelles;Pelouses calaminaires des Violetalia calaminariae
+"6140";F;Formations herbeuses naturelles et semi-naturelles;Pelouses naturelles;Pelouses pyrénéennes siliceuses à Festuca eskia
+"6150";F;Formations herbeuses naturelles et semi-naturelles;Pelouses naturelles;Pelouses boréo-alpines siliceuses
+"6170";F;Formations herbeuses naturelles et semi-naturelles;Pelouses naturelles;Pelouses calcaires alpines et subalpines
+"6210";F;Formations herbeuses naturelles et semi-naturelles;Formations herbeuses sèches semi-naturelles et fac;Pelouses sèches semi-naturelles et faciès d'embuissonnement sur calcaires (Festuco-Brometalia) (* sites d'orchidées remarquables)
+"6220";F;Formations herbeuses naturelles et semi-naturelles;Formations herbeuses sèches semi-naturelles et fac;Parcours substeppiques de graminées et annuelles des Thero-Brachypodietea
+"6230";F;Formations herbeuses naturelles et semi-naturelles;Formations herbeuses sèches semi-naturelles et fac;"Formations herbeuses à Nardus, riches en espèces, sur substrats siliceux des zones montagnardes (et des zones submontagnardes de l'Europe continentale)"
+"6310";F;Formations herbeuses naturelles et semi-naturelles;Forêts sclérophylles pâturées (dehesas);Dehesas à Quercus spp. sempervirents
+"6410";F;Formations herbeuses naturelles et semi-naturelles;Prairies humides semi-naturelles à hautes herbes;"Prairies à Molinia sur sols calcaires, tourbeux ou argilo-limoneux (Molinion caeruleae)"
+"6420";F;Formations herbeuses naturelles et semi-naturelles;Prairies humides semi-naturelles à hautes herbes;Prairies humides méditerranéennes à grandes herbes du Molinio-Holoschoenion
+"6430";F;Formations herbeuses naturelles et semi-naturelles;Prairies humides semi-naturelles à hautes herbes;Mégaphorbiaies hygrophiles d'ourlets planitiaires et des étages montagnard à alpin
+"6440";F;Formations herbeuses naturelles et semi-naturelles;Prairies humides semi-naturelles à hautes herbes;Prairies alluviales inondables du Cnidion dubii
+"6510";F;Formations herbeuses naturelles et semi-naturelles;Pelouses mésophiles;"Prairies maigres de fauche de basse altitude (Alopecurus pratensis, Sanguisorba officinalis)"
+"6520";F;Formations herbeuses naturelles et semi-naturelles;Pelouses mésophiles;Prairies de fauche de montagne
+"7110";G;"Tourbières hautes, tourbières basses et bas-marais";Tourbières acides à Sphaignes;Tourbières hautes actives
+"7120";G;"Tourbières hautes, tourbières basses et bas-marais";Tourbières acides à Sphaignes;Tourbières hautes dégradées encore susceptibles de régénération naturelle
+"7130";G;"Tourbières hautes, tourbières basses et bas-marais";Tourbières acides à Sphaignes;Tourbières de couverture (* tourbières actives seulement)
+"7140";G;"Tourbières hautes, tourbières basses et bas-marais";Tourbières acides à Sphaignes;Tourbières de transition et tremblantes
+"7150";G;"Tourbières hautes, tourbières basses et bas-marais";Tourbières acides à Sphaignes;Dépressions sur substrats tourbeux du Rhynchosporion
+"7210";G;"Tourbières hautes, tourbières basses et bas-marais";Bas-marais calcaires;Marais calcaires à Cladium mariscus et espèces du Caricion davallianae
+"7220";G;"Tourbières hautes, tourbières basses et bas-marais";Bas-marais calcaires;Sources pétrifiantes avec formation de tuf (Cratoneurion)
+"7230";G;"Tourbières hautes, tourbières basses et bas-marais";Bas-marais calcaires;Tourbières basses alcalines
+"7240";G;"Tourbières hautes, tourbières basses et bas-marais";Bas-marais calcaires;Formations pionnières alpines du Caricion bicoloris-atrofuscae
+"8110";H;Habitats rocheux et grottes;Éboulis rocheux;Eboulis siliceux de l'étage montagnard à nival (Androsacetalia alpinae et Galeopsietalia ladani)
+"8120";H;Habitats rocheux et grottes;Éboulis rocheux;Eboulis calcaires et de schistes calcaires des étages montagnard à alpin (Thlaspietea rotundifolii)
+"8130";H;Habitats rocheux et grottes;Éboulis rocheux;Eboulis ouest-méditerranéens et thermophiles
+"8150";H;Habitats rocheux et grottes;Éboulis rocheux;Eboulis médio-européens siliceux des régions hautes
+"8160";H;Habitats rocheux et grottes;Éboulis rocheux;Eboulis médio-européens calcaires des étages collinéen à montagnard
+"8210";H;Habitats rocheux et grottes;Pentes rocheuses avec végétation chasmophytique;Pentes rocheuses calcaires avec végétation chasmophytique
+"8220";H;Habitats rocheux et grottes;Pentes rocheuses avec végétation chasmophytique;Pentes rocheuses siliceuses avec végétation chasmophytique
+"8230";H;Habitats rocheux et grottes;Pentes rocheuses avec végétation chasmophytique;Roches siliceuses avec végétation pionnière du Sedo-Scleranthion ou du Sedo albi-Veronicion dillenii
+"8240";H;Habitats rocheux et grottes;Pentes rocheuses avec végétation chasmophytique;Pavements calcaires
+"8310";H;Habitats rocheux et grottes;Autres habitats rocheux;Grottes non exploitées par le tourisme
+"8330";H;Habitats rocheux et grottes;Autres habitats rocheux;Grottes marines submergées ou semi-submergées
+"8340";H;Habitats rocheux et grottes;Autres habitats rocheux;Glaciers permanents
+"9110";I;Forêts;Forêts de l'Europe tempérée;Hêtraies du Luzulo-Fagetum
+"9120";I;Forêts;Forêts de l'Europe tempérée;Hêtraies acidophiles atlantiques à sous-bois à Ilex et parfois à Taxus (Quercion robori-petraeae ou Ilici-Fagenion)
+"9130";I;Forêts;Forêts de l'Europe tempérée;Hêtraies de l'Asperulo-Fagetum
+"9140";I;Forêts;Forêts de l'Europe tempérée;Hêtraies subalpines médio-européennes à Acer et Rumex arifolius
+"9150";I;Forêts;Forêts de l'Europe tempérée;Hêtraies calcicoles médio-européennes du Cephalanthero-Fagion
+"9160";I;Forêts;Forêts de l'Europe tempérée;Chênaies pédonculées ou chênaies-charmaies subatlantiques et médio-européennes du Carpinion betuli
+"9170";I;Forêts;Forêts de l'Europe tempérée;Chênaies-charmaies du Galio-Carpinetum
+"9180";I;Forêts;Forêts de l'Europe tempérée;"Forêts de pentes, éboulis ou ravins du Tilio-Acerion"
+"9190";I;Forêts;Forêts de l'Europe tempérée;Vieilles chênaies acidophiles des plaines sablonneuses à Quercus robur
+91A0;I;Forêts;Forêts de l'Europe tempérée;Vieilles chênaies des îles Britanniques à Ilex et Blechnum
+91B0;I;Forêts;Forêts de l'Europe tempérée;Frênaies thermophiles à Fraxinus angustifolia
+"91D0";I;Forêts;Forêts de l'Europe tempérée;Tourbières boisées
+"91";I;Forêts;Forêts de l'Europe tempérée;"Forêts alluviales à Alnus glutinosa et Fraxinus excelsior (Alno-Padion, Alnion incanae, Salicion albae)"
+91F0;I;Forêts;Forêts de l'Europe tempérée;"Forêts mixtes à Quercus robur, Ulmus laevis, Ulmus minor, Fraxinus excelsior ou Fraxinus angustifolia, riveraines des grands fleuves (Ulmenion minoris)"
+"9230";I;Forêts;Forêts méditerranéennes à feuilles caduques;Chênaies galicio-portugaises à Quercus robur et Quercus pyrenaica
+"9260";I;Forêts;Forêts méditerranéennes à feuilles caduques;Forêts de Castanea sativa
+92A0;I;Forêts;Forêts méditerranéennes à feuilles caduques;Forêts-galeries à Salix alba et Populus alba
+"92D0";I;Forêts;Forêts méditerranéennes à feuilles caduques;Galeries et fourrés riverains méridionaux (Nerio-Tamaricetea et Securinegion tinctoriae)
+"9320";I;Forêts;Forêts sclérophylles méditerranéennes;Forêts à Olea et Ceratonia
+"9330";I;Forêts;Forêts sclérophylles méditerranéennes;Forêts à Quercus suber
+"9340";I;Forêts;Forêts sclérophylles méditerranéennes;Forêts à Quercus ilex et Quercus rotundifolia
+"9380";I;Forêts;Forêts sclérophylles méditerranéennes;Forêts à Ilex aquifolium
+"9410";I;Forêts;Forêts de conifères des montagnes tempérées;Forêts acidophiles à Picea des étages montagnard à alpin (Vaccinio-Piceetea)
+"9420";I;Forêts;Forêts de conifères des montagnes tempérées;Forêts alpines à Larix decidua et/ou Pinus cembra
+"9430";I;Forêts;Forêts de conifères des montagnes tempérées;Forêts montagnardes et subalpines à Pinus uncinata (* si sur substrat gypseux ou calcaire)
+"9530";I;Forêts;Forêts de conifères des montagnes méditerranéennes;Pinèdes (sub)méditerranéennes de pins noirs endémiques
+"9540";I;Forêts;Forêts de conifères des montagnes méditerranéennes;Pinèdes méditerranéennes de pins mésogéens endémiques
+"9560";I;Forêts;Forêts de conifères des montagnes méditerranéennes;Forêts endémiques à Juniperus spp.
+"9580";I;Forêts;Forêts de conifères des montagnes méditerranéennes;Bois méditerranéens à Taxus baccata
+"1180";A;Habitats côtiers et végétations halophytiques;Eaux marines et milieux à marées;Structures sous-marines causées par des émissions de gaz
