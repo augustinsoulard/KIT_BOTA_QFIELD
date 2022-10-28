@@ -1,4 +1,5 @@
 # Kit BOTA QFIELD
+***Version beta***  
 *Augustin Soulard*
 
 Projet Qfield comprenant :
@@ -9,4 +10,4 @@ Projet Qfield comprenant :
 
 Le fichier zip directement utilisable depuis Qfield est disponible ici : [https://github.com/Pytth/KIT_BOTA_QFIELD/archive/refs/heads/main.zip](https://github.com/Pytth/KIT_BOTA_QFIELD/archive/refs/heads/main.zip)
 
-*Tutoriel Youtube de la première version à venir*
+Vidéo YouTube présentant rapidement l'outil et comment l'utiliser : https://youtu.be/HF8Dxy5IFU8
