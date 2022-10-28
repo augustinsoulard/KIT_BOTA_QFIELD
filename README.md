@@ -1,6 +1,5 @@
 # Kit BOTA QFIELD
-***Version beta***  
-*Augustin Soulard*
+***Version beta*** - *Augustin Soulard*
 
 Projet Qfield comprenant :
 - Une couche point pour les relevés individuels floristiques ;
