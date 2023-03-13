@@ -1,18 +1,18 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.28.4-Firenze" maxScale="0" minScale="100000000" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories">
+<qgis simplifyLocal="1" symbologyReferenceScale="-1" maxScale="0" simplifyAlgorithm="0" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyDrawingHints="1" readOnly="0" hasScaleBasedVisibilityFlag="0" minScale="100000000" version="3.28.4-Firenze" simplifyMaxScale="1" simplifyDrawingTol="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal fixedDuration="0" startField="DATE" startExpression="" enabled="0" limitMode="0" durationUnit="min" mode="0" durationField="id" endField="" endExpression="" accumulate="0">
+  <temporal accumulate="0" enabled="0" mode="0" limitMode="0" durationField="id" startExpression="" startField="DATE" fixedDuration="0" endField="" durationUnit="min" endExpression="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <elevation showMarkerSymbolInSurfacePlots="0" symbology="Line" zoffset="0" extrusionEnabled="0" type="IndividualFeatures" clamping="Terrain" binding="Centroid" zscale="1" respectLayerSymbol="1" extrusion="0">
+  <elevation symbology="Line" extrusionEnabled="0" respectLayerSymbol="1" zoffset="0" binding="Centroid" zscale="1" extrusion="0" clamping="Terrain" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0">
     <data-defined-properties>
       <Option type="Map">
         <Option name="name" value="" type="QString"/>
@@ -21,7 +21,7 @@
       </Option>
     </data-defined-properties>
     <profileLineSymbol>
-      <symbol name="" alpha="1" type="line" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="" alpha="1" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="line">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -29,7 +29,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+        <layer class="SimpleLine" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="align_dash_pattern" value="0" type="QString"/>
             <Option name="capstyle" value="square" type="QString"/>
@@ -70,7 +70,7 @@
       </symbol>
     </profileLineSymbol>
     <profileFillSymbol>
-      <symbol name="" alpha="1" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="" alpha="1" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -78,7 +78,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="232,113,141,255" type="QString"/>
@@ -103,7 +103,7 @@
       </symbol>
     </profileFillSymbol>
     <profileMarkerSymbol>
-      <symbol name="" alpha="1" type="marker" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="" alpha="1" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="marker">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -111,7 +111,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
+        <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="angle" value="0" type="QString"/>
             <Option name="cap_style" value="square" type="QString"/>
@@ -144,23 +144,23 @@
       </symbol>
     </profileMarkerSymbol>
   </elevation>
-  <renderer-v2 symbollevels="0" type="categorizedSymbol" attr="CODE_EUNIS" referencescale="-1" forceraster="0" enableorderby="0">
+  <renderer-v2 referencescale="-1" symbollevels="0" attr="CODE_EUNIS" forceraster="0" enableorderby="0" type="categorizedSymbol">
     <categories>
-      <category label="Habitats marins" render="true" value="A" type="string" symbol="0"/>
-      <category label="Habitats côtiers" render="true" value="B" type="string" symbol="1"/>
-      <category label="Eaux de surface continentales" render="true" value="C" type="string" symbol="2"/>
-      <category label="Tourbières hautes et bas-marais" render="true" value="D" type="string" symbol="3"/>
-      <category label="Prairies ; terrains dominés par des herbacées non graminoïdes, des mousses ou des lichens" render="true" value="E" type="string" symbol="4"/>
-      <category label="Landes, fourrés et toundras" render="true" value="F" type="string" symbol="5"/>
-      <category label="Boisements, forêts et autres habitats boisés" render="true" value="G" type="string" symbol="6"/>
-      <category label="Habitats continentaux sans végétation ou à végétation clairsemée" render="true" value="H" type="string" symbol="7"/>
-      <category label="Habitats agricoles, horticoles et domestiques régulièrement ou récemment cultivés" render="true" value="I" type="string" symbol="8"/>
-      <category label="Zones bâties, sites industriels et autres habitats artificiels" render="true" value="J" type="string" symbol="9"/>
-      <category label="Complexes d'habitats" render="true" value="X" type="string" symbol="10"/>
-      <category label="" render="true" value="" type="string" symbol="11"/>
+      <category render="true" label="Habitats marins" symbol="0" value="A" type="string"/>
+      <category render="true" label="Habitats côtiers" symbol="1" value="B" type="string"/>
+      <category render="true" label="Eaux de surface continentales" symbol="2" value="C" type="string"/>
+      <category render="true" label="Tourbières hautes et bas-marais" symbol="3" value="D" type="string"/>
+      <category render="true" label="Prairies ; terrains dominés par des herbacées non graminoïdes, des mousses ou des lichens" symbol="4" value="E" type="string"/>
+      <category render="true" label="Landes, fourrés et toundras" symbol="5" value="F" type="string"/>
+      <category render="true" label="Boisements, forêts et autres habitats boisés" symbol="6" value="G" type="string"/>
+      <category render="true" label="Habitats continentaux sans végétation ou à végétation clairsemée" symbol="7" value="H" type="string"/>
+      <category render="true" label="Habitats agricoles, horticoles et domestiques régulièrement ou récemment cultivés" symbol="8" value="I" type="string"/>
+      <category render="true" label="Zones bâties, sites industriels et autres habitats artificiels" symbol="9" value="J" type="string"/>
+      <category render="true" label="Complexes d'habitats" symbol="10" value="X" type="string"/>
+      <category render="true" label="" symbol="11" value="" type="string"/>
     </categories>
     <symbols>
-      <symbol name="0" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="0" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -168,7 +168,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="7,89,222,255" type="QString"/>
@@ -191,7 +191,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="1" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="1" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -199,7 +199,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="2,255,234,255" type="QString"/>
@@ -222,7 +222,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="10" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="10" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -230,7 +230,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="229,131,177,255" type="QString"/>
@@ -253,7 +253,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="11" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="11" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -261,7 +261,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,255,255,255" type="QString"/>
@@ -284,7 +284,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="2" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="2" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -292,7 +292,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="123,134,208,255" type="QString"/>
@@ -315,7 +315,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="3" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="3" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -323,7 +323,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="0,238,91,255" type="QString"/>
@@ -346,7 +346,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="4" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="4" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -354,7 +354,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="220,137,21,255" type="QString"/>
@@ -377,7 +377,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="5" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="5" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -385,7 +385,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="147,23,214,255" type="QString"/>
@@ -408,7 +408,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="6" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="6" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -416,7 +416,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="30,80,8,255" type="QString"/>
@@ -439,7 +439,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="7" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="7" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -447,7 +447,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="143,143,143,255" type="QString"/>
@@ -470,7 +470,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="8" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="8" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -478,7 +478,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="250,250,0,255" type="QString"/>
@@ -501,7 +501,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="9" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="9" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -509,7 +509,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="0,0,0,255" type="QString"/>
@@ -534,7 +534,7 @@
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol name="0" alpha="0.5" type="fill" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+      <symbol name="0" alpha="0.5" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="fill">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -542,7 +542,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="183,72,75,255" type="QString"/>
@@ -585,12 +585,12 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory maxScaleDenominator="1e+08" direction="0" barWidth="5" backgroundColor="#ffffff" sizeScale="3x:0,0,0,0,0,0" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" penAlpha="255" lineSizeType="MM" height="15" minScaleDenominator="0" width="15" showAxis="1" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" penWidth="0" scaleBasedVisibility="0" spacing="5" labelPlacementMethod="XHeight" scaleDependency="Area" spacingUnit="MM" enabled="0" sizeType="MM" rotationOffset="270" minimumSize="0" diagramOrientation="Up">
-      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
-      <attribute label="" colorOpacity="1" color="#000000" field=""/>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory rotationOffset="270" labelPlacementMethod="XHeight" lineSizeType="MM" maxScaleDenominator="1e+08" penAlpha="255" penWidth="0" minScaleDenominator="0" spacingUnitScale="3x:0,0,0,0,0,0" direction="0" backgroundColor="#ffffff" penColor="#000000" spacingUnit="MM" sizeType="MM" height="15" diagramOrientation="Up" barWidth="5" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" enabled="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" spacing="5" scaleBasedVisibility="0" opacity="1" minimumSize="0" width="15" showAxis="1">
+      <fontProperties strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+      <attribute colorOpacity="1" label="" field="" color="#000000"/>
       <axisSymbol>
-        <symbol name="" alpha="1" type="line" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+        <symbol name="" alpha="1" frame_rate="10" clip_to_extent="1" is_animated="0" force_rhr="0" type="line">
           <data_defined_properties>
             <Option type="Map">
               <Option name="name" value="" type="QString"/>
@@ -598,7 +598,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+          <layer class="SimpleLine" enabled="1" pass="0" locked="0">
             <Option type="Map">
               <Option name="align_dash_pattern" value="0" type="QString"/>
               <Option name="capstyle" value="square" type="QString"/>
@@ -640,7 +640,7 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings priority="0" dist="0" showAll="1" linePlacementFlags="18" obstacle="0" placement="1" zIndex="0">
+  <DiagramLayerSettings linePlacementFlags="18" obstacle="0" dist="0" showAll="1" priority="0" zIndex="0" placement="1">
     <properties>
       <Option type="Map">
         <Option name="name" value="" type="QString"/>
@@ -659,10 +659,10 @@
       </Option>
     </checkConfiguration>
   </geometryOptions>
-  <legend type="default-vector" showLabelLegend="0"/>
+  <legend showLabelLegend="0" type="default-vector"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field name="id" configurationFlags="None">
+    <field configurationFlags="None" name="id">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -672,7 +672,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="CODE_EUNIS" configurationFlags="None">
+    <field configurationFlags="None" name="CODE_EUNIS">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -693,7 +693,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="TYPO_EUNIS" configurationFlags="None">
+    <field configurationFlags="None" name="TYPO_EUNIS">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -714,7 +714,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="HABESP" configurationFlags="None">
+    <field configurationFlags="None" name="HABESP">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -724,7 +724,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="ETATECO" configurationFlags="None">
+    <field configurationFlags="None" name="ETATECO">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -734,7 +734,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="FONCTION" configurationFlags="None">
+    <field configurationFlags="None" name="FONCTION">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -744,7 +744,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="ZH" configurationFlags="None">
+    <field configurationFlags="None" name="ZH">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -754,7 +754,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="TAUXINVA" configurationFlags="None">
+    <field configurationFlags="None" name="TAUXINVA">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -768,7 +768,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="REMARQUE" configurationFlags="None">
+    <field configurationFlags="None" name="REMARQUE">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -778,7 +778,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="PHOTO1" configurationFlags="None">
+    <field configurationFlags="None" name="PHOTO1">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
@@ -801,7 +801,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="PHOTO2" configurationFlags="None">
+    <field configurationFlags="None" name="PHOTO2">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
@@ -824,7 +824,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="SURF" configurationFlags="None">
+    <field configurationFlags="None" name="SURF">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -834,7 +834,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="DATE" configurationFlags="None">
+    <field configurationFlags="None" name="DATE">
       <editWidget type="DateTime">
         <config>
           <Option type="Map">
@@ -847,7 +847,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="OBS" configurationFlags="None">
+    <field configurationFlags="None" name="OBS">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -857,7 +857,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="CODE_N2000" configurationFlags="None">
+    <field configurationFlags="None" name="CODE_N2000">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -878,7 +878,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="TYPO_N2000" configurationFlags="None">
+    <field configurationFlags="None" name="TYPO_N2000">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -899,7 +899,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="HABLABEL" configurationFlags="None">
+    <field configurationFlags="None" name="HABLABEL">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -911,105 +911,105 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias name="" field="id" index="0"/>
-    <alias name="Habitat EUNIS (Niv1)" field="CODE_EUNIS" index="1"/>
-    <alias name="Habitat EUNIS (précis)" field="TYPO_EUNIS" index="2"/>
-    <alias name="" field="HABESP" index="3"/>
-    <alias name="" field="ETATECO" index="4"/>
-    <alias name="" field="FONCTION" index="5"/>
-    <alias name="" field="ZH" index="6"/>
-    <alias name="" field="TAUXINVA" index="7"/>
-    <alias name="" field="REMARQUE" index="8"/>
-    <alias name="" field="PHOTO1" index="9"/>
-    <alias name="" field="PHOTO2" index="10"/>
-    <alias name="" field="SURF" index="11"/>
-    <alias name="" field="DATE" index="12"/>
-    <alias name="" field="OBS" index="13"/>
-    <alias name="" field="CODE_N2000" index="14"/>
-    <alias name="" field="TYPO_N2000" index="15"/>
-    <alias name="Habitat" field="HABLABEL" index="16"/>
+    <alias name="" index="0" field="id"/>
+    <alias name="Habitat EUNIS (Niv1)" index="1" field="CODE_EUNIS"/>
+    <alias name="Habitat EUNIS (précis)" index="2" field="TYPO_EUNIS"/>
+    <alias name="" index="3" field="HABESP"/>
+    <alias name="" index="4" field="ETATECO"/>
+    <alias name="" index="5" field="FONCTION"/>
+    <alias name="" index="6" field="ZH"/>
+    <alias name="" index="7" field="TAUXINVA"/>
+    <alias name="" index="8" field="REMARQUE"/>
+    <alias name="" index="9" field="PHOTO1"/>
+    <alias name="" index="10" field="PHOTO2"/>
+    <alias name="" index="11" field="SURF"/>
+    <alias name="" index="12" field="DATE"/>
+    <alias name="" index="13" field="OBS"/>
+    <alias name="" index="14" field="CODE_N2000"/>
+    <alias name="" index="15" field="TYPO_N2000"/>
+    <alias name="Habitat" index="16" field="HABLABEL"/>
   </aliases>
   <defaults>
-    <default applyOnUpdate="1" expression="IF(maximum(&quot;id&quot;) is NULL,0,IF (&quot;id&quot; is NULL,maximum(&quot;id&quot;) + 1, &quot;id&quot;))" field="id"/>
-    <default applyOnUpdate="0" expression="NULL" field="CODE_EUNIS"/>
-    <default applyOnUpdate="0" expression="NULL" field="TYPO_EUNIS"/>
-    <default applyOnUpdate="0" expression="" field="HABESP"/>
-    <default applyOnUpdate="0" expression="" field="ETATECO"/>
-    <default applyOnUpdate="0" expression="" field="FONCTION"/>
-    <default applyOnUpdate="0" expression="" field="ZH"/>
-    <default applyOnUpdate="0" expression="" field="TAUXINVA"/>
-    <default applyOnUpdate="0" expression="" field="REMARQUE"/>
-    <default applyOnUpdate="0" expression="" field="PHOTO1"/>
-    <default applyOnUpdate="0" expression="" field="PHOTO2"/>
-    <default applyOnUpdate="1" expression="$area/10000" field="SURF"/>
-    <default applyOnUpdate="0" expression="format_date($now,'dd/MM/yyyy')" field="DATE"/>
-    <default applyOnUpdate="0" expression="" field="OBS"/>
-    <default applyOnUpdate="0" expression="" field="CODE_N2000"/>
-    <default applyOnUpdate="0" expression="" field="TYPO_N2000"/>
-    <default applyOnUpdate="0" expression="" field="HABLABEL"/>
+    <default expression="IF(maximum(&quot;id&quot;) is NULL,0,IF (&quot;id&quot; is NULL,maximum(&quot;id&quot;) + 1, &quot;id&quot;))" applyOnUpdate="1" field="id"/>
+    <default expression="NULL" applyOnUpdate="0" field="CODE_EUNIS"/>
+    <default expression="NULL" applyOnUpdate="0" field="TYPO_EUNIS"/>
+    <default expression="" applyOnUpdate="0" field="HABESP"/>
+    <default expression="" applyOnUpdate="0" field="ETATECO"/>
+    <default expression="" applyOnUpdate="0" field="FONCTION"/>
+    <default expression="" applyOnUpdate="0" field="ZH"/>
+    <default expression="" applyOnUpdate="0" field="TAUXINVA"/>
+    <default expression="" applyOnUpdate="0" field="REMARQUE"/>
+    <default expression="" applyOnUpdate="0" field="PHOTO1"/>
+    <default expression="" applyOnUpdate="0" field="PHOTO2"/>
+    <default expression="$area/10000" applyOnUpdate="1" field="SURF"/>
+    <default expression="format_date($now,'dd/MM/yyyy')" applyOnUpdate="0" field="DATE"/>
+    <default expression="" applyOnUpdate="0" field="OBS"/>
+    <default expression="" applyOnUpdate="0" field="CODE_N2000"/>
+    <default expression="" applyOnUpdate="0" field="TYPO_N2000"/>
+    <default expression="" applyOnUpdate="0" field="HABLABEL"/>
   </defaults>
   <constraints>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="id" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="CODE_EUNIS" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="TYPO_EUNIS" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="HABESP" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="ETATECO" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="FONCTION" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="ZH" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="TAUXINVA" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="REMARQUE" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="PHOTO1" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="PHOTO2" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="SURF" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="DATE" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="OBS" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="CODE_N2000" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="TYPO_N2000" exp_strength="0"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" field="HABLABEL" exp_strength="0"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="id"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="CODE_EUNIS"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="TYPO_EUNIS"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="HABESP"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="ETATECO"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="FONCTION"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="ZH"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="TAUXINVA"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="REMARQUE"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="PHOTO1"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="PHOTO2"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="SURF"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="DATE"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="OBS"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="CODE_N2000"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="TYPO_N2000"/>
+    <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="HABLABEL"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" exp="" field="id"/>
-    <constraint desc="" exp="" field="CODE_EUNIS"/>
-    <constraint desc="" exp="" field="TYPO_EUNIS"/>
-    <constraint desc="" exp="" field="HABESP"/>
-    <constraint desc="" exp="" field="ETATECO"/>
-    <constraint desc="" exp="" field="FONCTION"/>
-    <constraint desc="" exp="" field="ZH"/>
-    <constraint desc="" exp="" field="TAUXINVA"/>
-    <constraint desc="" exp="" field="REMARQUE"/>
-    <constraint desc="" exp="" field="PHOTO1"/>
-    <constraint desc="" exp="" field="PHOTO2"/>
-    <constraint desc="" exp="" field="SURF"/>
-    <constraint desc="" exp="" field="DATE"/>
-    <constraint desc="" exp="" field="OBS"/>
-    <constraint desc="" exp="" field="CODE_N2000"/>
-    <constraint desc="" exp="" field="TYPO_N2000"/>
-    <constraint desc="" exp="" field="HABLABEL"/>
+    <constraint exp="" desc="" field="id"/>
+    <constraint exp="" desc="" field="CODE_EUNIS"/>
+    <constraint exp="" desc="" field="TYPO_EUNIS"/>
+    <constraint exp="" desc="" field="HABESP"/>
+    <constraint exp="" desc="" field="ETATECO"/>
+    <constraint exp="" desc="" field="FONCTION"/>
+    <constraint exp="" desc="" field="ZH"/>
+    <constraint exp="" desc="" field="TAUXINVA"/>
+    <constraint exp="" desc="" field="REMARQUE"/>
+    <constraint exp="" desc="" field="PHOTO1"/>
+    <constraint exp="" desc="" field="PHOTO2"/>
+    <constraint exp="" desc="" field="SURF"/>
+    <constraint exp="" desc="" field="DATE"/>
+    <constraint exp="" desc="" field="OBS"/>
+    <constraint exp="" desc="" field="CODE_N2000"/>
+    <constraint exp="" desc="" field="TYPO_N2000"/>
+    <constraint exp="" desc="" field="HABLABEL"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig sortExpression="&quot;OBS&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+  <attributetableconfig sortExpression="&quot;OBS&quot;" sortOrder="0" actionWidgetStyle="dropDown">
     <columns>
-      <column name="id" type="field" width="-1" hidden="0"/>
-      <column name="CODE_EUNIS" type="field" width="-1" hidden="0"/>
-      <column name="TYPO_EUNIS" type="field" width="-1" hidden="0"/>
-      <column name="HABESP" type="field" width="-1" hidden="0"/>
-      <column name="ETATECO" type="field" width="-1" hidden="0"/>
-      <column name="FONCTION" type="field" width="-1" hidden="0"/>
-      <column name="ZH" type="field" width="-1" hidden="0"/>
-      <column name="TAUXINVA" type="field" width="-1" hidden="0"/>
-      <column name="REMARQUE" type="field" width="-1" hidden="0"/>
-      <column name="PHOTO1" type="field" width="-1" hidden="0"/>
-      <column name="PHOTO2" type="field" width="-1" hidden="0"/>
-      <column name="SURF" type="field" width="-1" hidden="0"/>
-      <column name="DATE" type="field" width="-1" hidden="0"/>
-      <column name="OBS" type="field" width="-1" hidden="0"/>
-      <column name="CODE_N2000" type="field" width="-1" hidden="0"/>
-      <column name="TYPO_N2000" type="field" width="-1" hidden="0"/>
-      <column name="HABLABEL" type="field" width="-1" hidden="0"/>
-      <column type="actions" width="-1" hidden="1"/>
+      <column width="-1" name="id" hidden="0" type="field"/>
+      <column width="-1" name="CODE_EUNIS" hidden="0" type="field"/>
+      <column width="-1" name="TYPO_EUNIS" hidden="0" type="field"/>
+      <column width="-1" name="HABESP" hidden="0" type="field"/>
+      <column width="-1" name="ETATECO" hidden="0" type="field"/>
+      <column width="-1" name="FONCTION" hidden="0" type="field"/>
+      <column width="-1" name="ZH" hidden="0" type="field"/>
+      <column width="-1" name="TAUXINVA" hidden="0" type="field"/>
+      <column width="-1" name="REMARQUE" hidden="0" type="field"/>
+      <column width="-1" name="PHOTO1" hidden="0" type="field"/>
+      <column width="-1" name="PHOTO2" hidden="0" type="field"/>
+      <column width="-1" name="SURF" hidden="0" type="field"/>
+      <column width="-1" name="DATE" hidden="0" type="field"/>
+      <column width="-1" name="OBS" hidden="0" type="field"/>
+      <column width="-1" name="CODE_N2000" hidden="0" type="field"/>
+      <column width="-1" name="TYPO_N2000" hidden="0" type="field"/>
+      <column width="-1" name="HABLABEL" hidden="0" type="field"/>
+      <column width="-1" hidden="1" type="actions"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -1041,123 +1041,123 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-      <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+    <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+      <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
     </labelStyle>
-    <attributeEditorContainer name="Typologie d'habitats (EUNIS)" columnCount="1" collapsed="0" collapsedExpressionEnabled="0" groupBox="0" visibilityExpression="" showLabel="1" collapsedExpression="" visibilityExpressionEnabled="0">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+    <attributeEditorContainer showLabel="1" visibilityExpression="" visibilityExpressionEnabled="0" name="Typologie d'habitats (EUNIS)" columnCount="1" groupBox="0" collapsedExpressionEnabled="0" collapsedExpression="" collapsed="0">
+      <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+        <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
       </labelStyle>
-      <attributeEditorField name="HABLABEL" index="16" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="HABLABEL" index="16">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="CODE_EUNIS" index="1" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="CODE_EUNIS" index="1">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="TYPO_EUNIS" index="2" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="TYPO_EUNIS" index="2">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer name="Autres typologies (HIC)" columnCount="1" collapsed="0" collapsedExpressionEnabled="0" groupBox="0" visibilityExpression="" showLabel="1" collapsedExpression="" visibilityExpressionEnabled="0">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+    <attributeEditorContainer showLabel="1" visibilityExpression="" visibilityExpressionEnabled="0" name="Autres typologies (HIC)" columnCount="1" groupBox="0" collapsedExpressionEnabled="0" collapsedExpression="" collapsed="0">
+      <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+        <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
       </labelStyle>
-      <attributeEditorField name="CODE_N2000" index="14" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="CODE_N2000" index="14">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="TYPO_N2000" index="15" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="TYPO_N2000" index="15">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer name="INFO" columnCount="2" collapsed="0" collapsedExpressionEnabled="0" groupBox="0" visibilityExpression="" showLabel="1" collapsedExpression="" visibilityExpressionEnabled="0">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+    <attributeEditorContainer showLabel="1" visibilityExpression="" visibilityExpressionEnabled="0" name="INFO" columnCount="2" groupBox="0" collapsedExpressionEnabled="0" collapsedExpression="" collapsed="0">
+      <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+        <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
       </labelStyle>
-      <attributeEditorField name="HABESP" index="3" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="HABESP" index="3">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="ETATECO" index="4" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="ETATECO" index="4">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="FONCTION" index="5" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="FONCTION" index="5">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="ZH" index="6" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="ZH" index="6">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="TAUXINVA" index="7" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="TAUXINVA" index="7">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="REMARQUE" index="8" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="REMARQUE" index="8">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="PHOTO1" index="9" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="PHOTO1" index="9">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="PHOTO2" index="10" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="PHOTO2" index="10">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="SURF" index="11" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="SURF" index="11">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="DATE" index="12" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="DATE" index="12">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="OBS" index="13" showLabel="1">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" italic="0" style=""/>
+      <attributeEditorField showLabel="1" name="OBS" index="13">
+        <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont strikethrough="0" bold="0" underline="0" italic="0" style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
   </attributeEditorForm>
   <editable>
-    <field name="CODE_EUNIS" editable="1"/>
-    <field name="CODE_N2000" editable="1"/>
-    <field name="DATE" editable="1"/>
-    <field name="ETATECO" editable="1"/>
-    <field name="FONCTION" editable="1"/>
-    <field name="HABESP" editable="1"/>
-    <field name="HABLABEL" editable="1"/>
-    <field name="OBS" editable="1"/>
-    <field name="PHOTO1" editable="1"/>
-    <field name="PHOTO2" editable="1"/>
-    <field name="REMARQUE" editable="1"/>
-    <field name="SURF" editable="1"/>
-    <field name="TAUXINVA" editable="1"/>
-    <field name="TYPO_EUNIS" editable="1"/>
-    <field name="TYPO_N2000" editable="1"/>
-    <field name="ZH" editable="1"/>
-    <field name="id" editable="1"/>
+    <field editable="1" name="CODE_EUNIS"/>
+    <field editable="1" name="CODE_N2000"/>
+    <field editable="1" name="DATE"/>
+    <field editable="1" name="ETATECO"/>
+    <field editable="1" name="FONCTION"/>
+    <field editable="1" name="HABESP"/>
+    <field editable="1" name="HABLABEL"/>
+    <field editable="1" name="OBS"/>
+    <field editable="1" name="PHOTO1"/>
+    <field editable="1" name="PHOTO2"/>
+    <field editable="1" name="REMARQUE"/>
+    <field editable="1" name="SURF"/>
+    <field editable="1" name="TAUXINVA"/>
+    <field editable="1" name="TYPO_EUNIS"/>
+    <field editable="1" name="TYPO_N2000"/>
+    <field editable="1" name="ZH"/>
+    <field editable="1" name="id"/>
   </editable>
   <labelOnTop>
     <field name="CODE_EUNIS" labelOnTop="0"/>
@@ -1179,23 +1179,23 @@ def my_form_open(dialog, layer, feature):
     <field name="id" labelOnTop="0"/>
   </labelOnTop>
   <reuseLastValue>
-    <field name="CODE_EUNIS" reuseLastValue="0"/>
-    <field name="CODE_N2000" reuseLastValue="0"/>
-    <field name="DATE" reuseLastValue="0"/>
-    <field name="ETATECO" reuseLastValue="0"/>
-    <field name="FONCTION" reuseLastValue="0"/>
-    <field name="HABESP" reuseLastValue="0"/>
-    <field name="HABLABEL" reuseLastValue="0"/>
-    <field name="OBS" reuseLastValue="0"/>
-    <field name="PHOTO1" reuseLastValue="0"/>
-    <field name="PHOTO2" reuseLastValue="0"/>
-    <field name="REMARQUE" reuseLastValue="0"/>
-    <field name="SURF" reuseLastValue="0"/>
-    <field name="TAUXINVA" reuseLastValue="0"/>
-    <field name="TYPO_EUNIS" reuseLastValue="0"/>
-    <field name="TYPO_N2000" reuseLastValue="0"/>
-    <field name="ZH" reuseLastValue="0"/>
-    <field name="id" reuseLastValue="0"/>
+    <field reuseLastValue="0" name="CODE_EUNIS"/>
+    <field reuseLastValue="0" name="CODE_N2000"/>
+    <field reuseLastValue="0" name="DATE"/>
+    <field reuseLastValue="0" name="ETATECO"/>
+    <field reuseLastValue="0" name="FONCTION"/>
+    <field reuseLastValue="0" name="HABESP"/>
+    <field reuseLastValue="0" name="HABLABEL"/>
+    <field reuseLastValue="0" name="OBS"/>
+    <field reuseLastValue="0" name="PHOTO1"/>
+    <field reuseLastValue="0" name="PHOTO2"/>
+    <field reuseLastValue="0" name="REMARQUE"/>
+    <field reuseLastValue="0" name="SURF"/>
+    <field reuseLastValue="0" name="TAUXINVA"/>
+    <field reuseLastValue="0" name="TYPO_EUNIS"/>
+    <field reuseLastValue="0" name="TYPO_N2000"/>
+    <field reuseLastValue="0" name="ZH"/>
+    <field reuseLastValue="0" name="id"/>
   </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets/>
