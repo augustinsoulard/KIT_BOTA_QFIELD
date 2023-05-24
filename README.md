@@ -11,3 +11,6 @@ Projet Qfield comprenant :
 
 Le fichier zip directement utilisable depuis Qfield est disponible ici : [https://github.com/augustinsoulard/KIT_BOTA_QFIELD/archive/refs/heads/main.zip](https://github.com/augustinsoulard/KIT_BOTA_QFIELD/archive/refs/heads/main.zip)
 Vidéo YouTube présentant rapidement l'outil et comment l'utiliser : https://youtu.be/HF8Dxy5IFU8
+
+
+Ce projet est réalisé en grande majorité bénévolement, mais Agence MTDA a accepté que j'utilise aussi de mon temps professionnel pour l'avancement de l'outil. Merci à eux !
