@@ -1,73 +1,73 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyAlgorithm="0" simplifyDrawingHints="0" simplifyMaxScale="1" maxScale="0" minScale="100000000" simplifyDrawingTol="1" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" styleCategories="AllStyleCategories" labelsEnabled="0" version="3.22.15-Białowieża" symbologyReferenceScale="-1">
+<qgis simplifyDrawingHints="0" minScale="100000000" maxScale="0" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" symbologyReferenceScale="-1" readOnly="0" hasScaleBasedVisibilityFlag="0" version="3.22.15-Białowieża" simplifyDrawingTol="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal accumulate="0" enabled="0" fixedDuration="0" endExpression="" startExpression="" durationField="Surface" limitMode="0" durationUnit="min" mode="0" endField="" startField="DATE">
+  <temporal endField="" startExpression="" accumulate="0" durationField="Surface" fixedDuration="0" limitMode="0" startField="DATE" endExpression="" mode="0" enabled="0" durationUnit="min">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 referencescale="-1" symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+  <renderer-v2 forceraster="0" referencescale="-1" symbollevels="0" enableorderby="0" type="singleSymbol">
     <symbols>
-      <symbol name="0" alpha="1" type="marker" clip_to_extent="1" force_rhr="0">
+      <symbol name="0" alpha="1" clip_to_extent="1" force_rhr="0" type="marker">
         <data_defined_properties>
           <Option type="Map">
-            <Option value="" name="name" type="QString"/>
+            <Option name="name" type="QString" value=""/>
             <Option name="properties"/>
-            <Option value="collection" name="type" type="QString"/>
+            <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SimpleMarker" pass="0">
+        <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
           <Option type="Map">
-            <Option value="0" name="angle" type="QString"/>
-            <Option value="square" name="cap_style" type="QString"/>
-            <Option value="111,186,31,255" name="color" type="QString"/>
-            <Option value="1" name="horizontal_anchor_point" type="QString"/>
-            <Option value="bevel" name="joinstyle" type="QString"/>
-            <Option value="octagon" name="name" type="QString"/>
-            <Option value="0,0" name="offset" type="QString"/>
-            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
-            <Option value="MM" name="offset_unit" type="QString"/>
-            <Option value="35,35,35,255" name="outline_color" type="QString"/>
-            <Option value="solid" name="outline_style" type="QString"/>
-            <Option value="0" name="outline_width" type="QString"/>
-            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
-            <Option value="MM" name="outline_width_unit" type="QString"/>
-            <Option value="diameter" name="scale_method" type="QString"/>
-            <Option value="3" name="size" type="QString"/>
-            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
-            <Option value="MM" name="size_unit" type="QString"/>
-            <Option value="1" name="vertical_anchor_point" type="QString"/>
+            <Option name="angle" type="QString" value="0"/>
+            <Option name="cap_style" type="QString" value="square"/>
+            <Option name="color" type="QString" value="111,186,31,255"/>
+            <Option name="horizontal_anchor_point" type="QString" value="1"/>
+            <Option name="joinstyle" type="QString" value="bevel"/>
+            <Option name="name" type="QString" value="octagon"/>
+            <Option name="offset" type="QString" value="0,0"/>
+            <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="offset_unit" type="QString" value="MM"/>
+            <Option name="outline_color" type="QString" value="35,35,35,255"/>
+            <Option name="outline_style" type="QString" value="solid"/>
+            <Option name="outline_width" type="QString" value="0"/>
+            <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="outline_width_unit" type="QString" value="MM"/>
+            <Option name="scale_method" type="QString" value="diameter"/>
+            <Option name="size" type="QString" value="3"/>
+            <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="size_unit" type="QString" value="MM"/>
+            <Option name="vertical_anchor_point" type="QString" value="1"/>
           </Option>
-          <prop k="angle" v="0"/>
-          <prop k="cap_style" v="square"/>
-          <prop k="color" v="111,186,31,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="octagon"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="3"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
+          <prop v="0" k="angle"/>
+          <prop v="square" k="cap_style"/>
+          <prop v="111,186,31,255" k="color"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="octagon" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diameter" k="scale_method"/>
+          <prop v="3" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -78,13 +78,13 @@
   </renderer-v2>
   <customproperties>
     <Option type="Map">
-      <Option value="copy" name="QFieldSync/action" type="QString"/>
-      <Option value="offline" name="QFieldSync/cloud_action" type="QString"/>
-      <Option value="{&quot;Photo1&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo2&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo3&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo4&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo5&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;}" name="QFieldSync/photo_naming" type="QString"/>
+      <Option name="QFieldSync/action" type="QString" value="copy"/>
+      <Option name="QFieldSync/cloud_action" type="QString" value="offline"/>
+      <Option name="QFieldSync/photo_naming" type="QString" value="{&quot;Photo1&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo2&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo3&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo4&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;, &quot;Photo5&quot;: &quot;'DCIM/floredoctype_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;}"/>
       <Option name="dualview/previewExpressions" type="List">
-        <Option value="&quot;NomComplet&quot;" type="QString"/>
+        <Option type="QString" value="&quot;NomComplet&quot;"/>
       </Option>
-      <Option value="0" name="embeddedWidgets/count" type="QString"/>
+      <Option name="embeddedWidgets/count" type="QString" value="0"/>
       <Option name="variableNames"/>
       <Option name="variableValues"/>
     </Option>
@@ -92,81 +92,81 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory lineSizeType="MM" rotationOffset="270" spacing="0" lineSizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" showAxis="0" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" scaleDependency="Area" backgroundAlpha="255" spacingUnit="MM" enabled="0" opacity="1" scaleBasedVisibility="0" direction="1" width="15" penWidth="0" minimumSize="0" minScaleDenominator="0" barWidth="5" backgroundColor="#ffffff" sizeType="MM" labelPlacementMethod="XHeight" diagramOrientation="Up" maxScaleDenominator="1e+08" height="15" penAlpha="255">
+  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+    <DiagramCategory penColor="#000000" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0" opacity="1" minScaleDenominator="0" direction="1" rotationOffset="270" scaleDependency="Area" spacingUnit="MM" minimumSize="0" spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" lineSizeType="MM" showAxis="0" width="15" sizeType="MM" diagramOrientation="Up" backgroundColor="#ffffff" scaleBasedVisibility="0" barWidth="5" sizeScale="3x:0,0,0,0,0,0" height="15" spacing="0" labelPlacementMethod="XHeight" maxScaleDenominator="1e+08" backgroundAlpha="255" penAlpha="255">
       <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
-      <attribute color="#000000" label="" field="" colorOpacity="1"/>
+      <attribute colorOpacity="1" field="" label="" color="#000000"/>
       <axisSymbol>
-        <symbol name="" alpha="1" type="line" clip_to_extent="1" force_rhr="0">
+        <symbol name="" alpha="1" clip_to_extent="1" force_rhr="0" type="line">
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
           </data_defined_properties>
-          <layer enabled="1" locked="0" class="SimpleLine" pass="0">
+          <layer pass="0" locked="0" class="SimpleLine" enabled="1">
             <Option type="Map">
-              <Option value="0" name="align_dash_pattern" type="QString"/>
-              <Option value="square" name="capstyle" type="QString"/>
-              <Option value="5;2" name="customdash" type="QString"/>
-              <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
-              <Option value="MM" name="customdash_unit" type="QString"/>
-              <Option value="0" name="dash_pattern_offset" type="QString"/>
-              <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
-              <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
-              <Option value="0" name="draw_inside_polygon" type="QString"/>
-              <Option value="bevel" name="joinstyle" type="QString"/>
-              <Option value="35,35,35,255" name="line_color" type="QString"/>
-              <Option value="solid" name="line_style" type="QString"/>
-              <Option value="0.26" name="line_width" type="QString"/>
-              <Option value="MM" name="line_width_unit" type="QString"/>
-              <Option value="0" name="offset" type="QString"/>
-              <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
-              <Option value="MM" name="offset_unit" type="QString"/>
-              <Option value="0" name="ring_filter" type="QString"/>
-              <Option value="0" name="trim_distance_end" type="QString"/>
-              <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
-              <Option value="MM" name="trim_distance_end_unit" type="QString"/>
-              <Option value="0" name="trim_distance_start" type="QString"/>
-              <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
-              <Option value="MM" name="trim_distance_start_unit" type="QString"/>
-              <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
-              <Option value="0" name="use_custom_dash" type="QString"/>
-              <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+              <Option name="align_dash_pattern" type="QString" value="0"/>
+              <Option name="capstyle" type="QString" value="square"/>
+              <Option name="customdash" type="QString" value="5;2"/>
+              <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="customdash_unit" type="QString" value="MM"/>
+              <Option name="dash_pattern_offset" type="QString" value="0"/>
+              <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+              <Option name="draw_inside_polygon" type="QString" value="0"/>
+              <Option name="joinstyle" type="QString" value="bevel"/>
+              <Option name="line_color" type="QString" value="35,35,35,255"/>
+              <Option name="line_style" type="QString" value="solid"/>
+              <Option name="line_width" type="QString" value="0.26"/>
+              <Option name="line_width_unit" type="QString" value="MM"/>
+              <Option name="offset" type="QString" value="0"/>
+              <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="offset_unit" type="QString" value="MM"/>
+              <Option name="ring_filter" type="QString" value="0"/>
+              <Option name="trim_distance_end" type="QString" value="0"/>
+              <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+              <Option name="trim_distance_start" type="QString" value="0"/>
+              <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+              <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+              <Option name="use_custom_dash" type="QString" value="0"/>
+              <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             </Option>
-            <prop k="align_dash_pattern" v="0"/>
-            <prop k="capstyle" v="square"/>
-            <prop k="customdash" v="5;2"/>
-            <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="customdash_unit" v="MM"/>
-            <prop k="dash_pattern_offset" v="0"/>
-            <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="dash_pattern_offset_unit" v="MM"/>
-            <prop k="draw_inside_polygon" v="0"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="line_color" v="35,35,35,255"/>
-            <prop k="line_style" v="solid"/>
-            <prop k="line_width" v="0.26"/>
-            <prop k="line_width_unit" v="MM"/>
-            <prop k="offset" v="0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="ring_filter" v="0"/>
-            <prop k="trim_distance_end" v="0"/>
-            <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="trim_distance_end_unit" v="MM"/>
-            <prop k="trim_distance_start" v="0"/>
-            <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="trim_distance_start_unit" v="MM"/>
-            <prop k="tweak_dash_pattern_on_corners" v="0"/>
-            <prop k="use_custom_dash" v="0"/>
-            <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop v="0" k="align_dash_pattern"/>
+            <prop v="square" k="capstyle"/>
+            <prop v="5;2" k="customdash"/>
+            <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+            <prop v="MM" k="customdash_unit"/>
+            <prop v="0" k="dash_pattern_offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+            <prop v="MM" k="dash_pattern_offset_unit"/>
+            <prop v="0" k="draw_inside_polygon"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="35,35,35,255" k="line_color"/>
+            <prop v="solid" k="line_style"/>
+            <prop v="0.26" k="line_width"/>
+            <prop v="MM" k="line_width_unit"/>
+            <prop v="0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0" k="ring_filter"/>
+            <prop v="0" k="trim_distance_end"/>
+            <prop v="3x:0,0,0,0,0,0" k="trim_distance_end_map_unit_scale"/>
+            <prop v="MM" k="trim_distance_end_unit"/>
+            <prop v="0" k="trim_distance_start"/>
+            <prop v="3x:0,0,0,0,0,0" k="trim_distance_start_map_unit_scale"/>
+            <prop v="MM" k="trim_distance_start_unit"/>
+            <prop v="0" k="tweak_dash_pattern_on_corners"/>
+            <prop v="0" k="use_custom_dash"/>
+            <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option value="" name="name" type="QString"/>
+                <Option name="name" type="QString" value=""/>
                 <Option name="properties"/>
-                <Option value="collection" name="type" type="QString"/>
+                <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -174,634 +174,634 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings zIndex="0" dist="0" obstacle="0" linePlacementFlags="18" placement="0" priority="0" showAll="1">
+  <DiagramLayerSettings zIndex="0" dist="0" linePlacementFlags="18" obstacle="0" placement="0" showAll="1" priority="0">
     <properties>
       <Option type="Map">
-        <Option value="" name="name" type="QString"/>
+        <Option name="name" type="QString" value=""/>
         <Option name="properties"/>
-        <Option value="collection" name="type" type="QString"/>
+        <Option name="type" type="QString" value="collection"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
   <legend type="default-vector" showLabelLegend="0"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field configurationFlags="None" name="Surface">
+    <field name="Surface" configurationFlags="None">
       <editWidget type="Range">
         <config>
           <Option type="Map">
-            <Option value="true" name="AllowNull" type="bool"/>
-            <Option value="1.7976931348623157e+308" name="Max" type="double"/>
-            <Option value="0" name="Min" type="double"/>
-            <Option value="0" name="Precision" type="int"/>
-            <Option value="5" name="Step" type="double"/>
-            <Option value="SpinBox" name="Style" type="QString"/>
+            <Option name="AllowNull" type="bool" value="true"/>
+            <Option name="Max" type="double" value="1.7976931348623157e+308"/>
+            <Option name="Min" type="double" value="0"/>
+            <Option name="Precision" type="int" value="0"/>
+            <Option name="Step" type="double" value="5"/>
+            <Option name="Style" type="QString" value="SpinBox"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Nombre">
+    <field name="Nombre" configurationFlags="None">
       <editWidget type="Range">
         <config>
           <Option type="Map">
-            <Option value="true" name="AllowNull" type="bool"/>
-            <Option value="1.7976931348623157e+308" name="Max" type="double"/>
-            <Option value="0" name="Min" type="double"/>
-            <Option value="0" name="Precision" type="int"/>
-            <Option value="1" name="Step" type="double"/>
-            <Option value="SpinBox" name="Style" type="QString"/>
+            <Option name="AllowNull" type="bool" value="true"/>
+            <Option name="Max" type="double" value="1.7976931348623157e+308"/>
+            <Option name="Min" type="double" value="0"/>
+            <Option name="Precision" type="int" value="0"/>
+            <Option name="Step" type="double" value="1"/>
+            <Option name="Style" type="QString" value="SpinBox"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Notes">
+    <field name="Notes" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="NomComplet">
+    <field name="NomComplet" configurationFlags="None">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option value="false" name="AllowMulti" type="bool"/>
-            <Option value="true" name="AllowNull" type="bool"/>
-            <Option value="" name="Description" type="QString"/>
-            <Option value="" name="FilterExpression" type="QString"/>
-            <Option value="LB_NOM" name="Key" type="QString"/>
-            <Option value="TAXAQgis_1ac4545f_a609_468b_989d_3d59e34b2479" name="Layer" type="QString"/>
-            <Option value="TAXAQgis" name="LayerName" type="QString"/>
-            <Option value="ogr" name="LayerProviderName" type="QString"/>
-            <Option value="C:/Users/Augustin Soulard/Documents/Programmation/Github/KIT_BOTA_QFIELD/DataProjetFlore.gpkg|layername=TAXAQgis" name="LayerSource" type="QString"/>
-            <Option value="6" name="NofColumns" type="int"/>
-            <Option value="false" name="OrderByValue" type="bool"/>
-            <Option value="false" name="UseCompleter" type="bool"/>
-            <Option value="LB_NOM" name="Value" type="QString"/>
+            <Option name="AllowMulti" type="bool" value="false"/>
+            <Option name="AllowNull" type="bool" value="true"/>
+            <Option name="Description" type="QString" value=""/>
+            <Option name="FilterExpression" type="QString" value=""/>
+            <Option name="Key" type="QString" value="LB_NOM"/>
+            <Option name="Layer" type="QString" value="TAXAQgis_1ac4545f_a609_468b_989d_3d59e34b2479"/>
+            <Option name="LayerName" type="QString" value="TAXAQgis"/>
+            <Option name="LayerProviderName" type="QString" value="ogr"/>
+            <Option name="LayerSource" type="QString" value="C:/Users/Augustin Soulard/Documents/Programmation/Github/KIT_BOTA_QFIELD/DataProjetFlore.gpkg|layername=TAXAQgis"/>
+            <Option name="NofColumns" type="int" value="6"/>
+            <Option name="OrderByValue" type="bool" value="false"/>
+            <Option name="UseCompleter" type="bool" value="false"/>
+            <Option name="Value" type="QString" value="LB_NOM"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Photo1">
+    <field name="Photo1" configurationFlags="None">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
-            <Option value="1" name="DocumentViewer" type="int"/>
-            <Option value="0" name="DocumentViewerHeight" type="int"/>
-            <Option value="0" name="DocumentViewerWidth" type="int"/>
-            <Option value="true" name="FileWidget" type="bool"/>
-            <Option value="true" name="FileWidgetButton" type="bool"/>
-            <Option value="" name="FileWidgetFilter" type="QString"/>
+            <Option name="DocumentViewer" type="int" value="1"/>
+            <Option name="DocumentViewerHeight" type="int" value="0"/>
+            <Option name="DocumentViewerWidth" type="int" value="0"/>
+            <Option name="FileWidget" type="bool" value="true"/>
+            <Option name="FileWidgetButton" type="bool" value="true"/>
+            <Option name="FileWidgetFilter" type="QString" value=""/>
             <Option name="PropertyCollection" type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties" type="invalid"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
-            <Option value="1" name="RelativeStorage" type="int"/>
-            <Option value="" name="StorageAuthConfigId" type="QString"/>
-            <Option value="0" name="StorageMode" type="int"/>
-            <Option value="" name="StorageType" type="QString"/>
+            <Option name="RelativeStorage" type="int" value="1"/>
+            <Option name="StorageAuthConfigId" type="QString" value=""/>
+            <Option name="StorageMode" type="int" value="0"/>
+            <Option name="StorageType" type="QString" value=""/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Photo2">
+    <field name="Photo2" configurationFlags="None">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
-            <Option value="1" name="DocumentViewer" type="int"/>
-            <Option value="0" name="DocumentViewerHeight" type="int"/>
-            <Option value="0" name="DocumentViewerWidth" type="int"/>
-            <Option value="true" name="FileWidget" type="bool"/>
-            <Option value="true" name="FileWidgetButton" type="bool"/>
-            <Option value="" name="FileWidgetFilter" type="QString"/>
+            <Option name="DocumentViewer" type="int" value="1"/>
+            <Option name="DocumentViewerHeight" type="int" value="0"/>
+            <Option name="DocumentViewerWidth" type="int" value="0"/>
+            <Option name="FileWidget" type="bool" value="true"/>
+            <Option name="FileWidgetButton" type="bool" value="true"/>
+            <Option name="FileWidgetFilter" type="QString" value=""/>
             <Option name="PropertyCollection" type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties" type="invalid"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
-            <Option value="1" name="RelativeStorage" type="int"/>
-            <Option value="" name="StorageAuthConfigId" type="QString"/>
-            <Option value="0" name="StorageMode" type="int"/>
-            <Option value="" name="StorageType" type="QString"/>
+            <Option name="RelativeStorage" type="int" value="1"/>
+            <Option name="StorageAuthConfigId" type="QString" value=""/>
+            <Option name="StorageMode" type="int" value="0"/>
+            <Option name="StorageType" type="QString" value=""/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="X">
+    <field name="X" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Y">
+    <field name="Y" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="DATE">
+    <field name="DATE" configurationFlags="None">
       <editWidget type="DateTime">
         <config>
           <Option type="Map">
-            <Option value="false" name="allow_null" type="bool"/>
-            <Option value="true" name="calendar_popup" type="bool"/>
-            <Option value="dd/MM/yyyy" name="display_format" type="QString"/>
-            <Option value="dd/MM/yyyy" name="field_format" type="QString"/>
-            <Option value="false" name="field_iso_format" type="bool"/>
+            <Option name="allow_null" type="bool" value="false"/>
+            <Option name="calendar_popup" type="bool" value="true"/>
+            <Option name="display_format" type="QString" value="dd/MM/yyyy"/>
+            <Option name="field_format" type="QString" value="dd/MM/yyyy"/>
+            <Option name="field_iso_format" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="OBS">
+    <field name="OBS" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Photo3">
+    <field name="Photo3" configurationFlags="None">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
-            <Option value="1" name="DocumentViewer" type="int"/>
-            <Option value="0" name="DocumentViewerHeight" type="int"/>
-            <Option value="0" name="DocumentViewerWidth" type="int"/>
-            <Option value="true" name="FileWidget" type="bool"/>
-            <Option value="true" name="FileWidgetButton" type="bool"/>
-            <Option value="" name="FileWidgetFilter" type="QString"/>
+            <Option name="DocumentViewer" type="int" value="1"/>
+            <Option name="DocumentViewerHeight" type="int" value="0"/>
+            <Option name="DocumentViewerWidth" type="int" value="0"/>
+            <Option name="FileWidget" type="bool" value="true"/>
+            <Option name="FileWidgetButton" type="bool" value="true"/>
+            <Option name="FileWidgetFilter" type="QString" value=""/>
             <Option name="PropertyCollection" type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties" type="invalid"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
-            <Option value="0" name="RelativeStorage" type="int"/>
-            <Option value="" name="StorageAuthConfigId" type="QString"/>
-            <Option value="0" name="StorageMode" type="int"/>
-            <Option value="" name="StorageType" type="QString"/>
+            <Option name="RelativeStorage" type="int" value="0"/>
+            <Option name="StorageAuthConfigId" type="QString" value=""/>
+            <Option name="StorageMode" type="int" value="0"/>
+            <Option name="StorageType" type="QString" value=""/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Photo4">
+    <field name="Photo4" configurationFlags="None">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
-            <Option value="1" name="DocumentViewer" type="int"/>
-            <Option value="0" name="DocumentViewerHeight" type="int"/>
-            <Option value="0" name="DocumentViewerWidth" type="int"/>
-            <Option value="true" name="FileWidget" type="bool"/>
-            <Option value="true" name="FileWidgetButton" type="bool"/>
-            <Option value="" name="FileWidgetFilter" type="QString"/>
+            <Option name="DocumentViewer" type="int" value="1"/>
+            <Option name="DocumentViewerHeight" type="int" value="0"/>
+            <Option name="DocumentViewerWidth" type="int" value="0"/>
+            <Option name="FileWidget" type="bool" value="true"/>
+            <Option name="FileWidgetButton" type="bool" value="true"/>
+            <Option name="FileWidgetFilter" type="QString" value=""/>
             <Option name="PropertyCollection" type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties" type="invalid"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
-            <Option value="0" name="RelativeStorage" type="int"/>
-            <Option value="" name="StorageAuthConfigId" type="QString"/>
-            <Option value="0" name="StorageMode" type="int"/>
-            <Option value="" name="StorageType" type="QString"/>
+            <Option name="RelativeStorage" type="int" value="0"/>
+            <Option name="StorageAuthConfigId" type="QString" value=""/>
+            <Option name="StorageMode" type="int" value="0"/>
+            <Option name="StorageType" type="QString" value=""/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Photo5">
+    <field name="Photo5" configurationFlags="None">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
-            <Option value="1" name="DocumentViewer" type="int"/>
-            <Option value="0" name="DocumentViewerHeight" type="int"/>
-            <Option value="0" name="DocumentViewerWidth" type="int"/>
-            <Option value="true" name="FileWidget" type="bool"/>
-            <Option value="true" name="FileWidgetButton" type="bool"/>
-            <Option value="" name="FileWidgetFilter" type="QString"/>
+            <Option name="DocumentViewer" type="int" value="1"/>
+            <Option name="DocumentViewerHeight" type="int" value="0"/>
+            <Option name="DocumentViewerWidth" type="int" value="0"/>
+            <Option name="FileWidget" type="bool" value="true"/>
+            <Option name="FileWidgetButton" type="bool" value="true"/>
+            <Option name="FileWidgetFilter" type="QString" value=""/>
             <Option name="PropertyCollection" type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties" type="invalid"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
-            <Option value="0" name="RelativeStorage" type="int"/>
-            <Option value="" name="StorageAuthConfigId" type="QString"/>
-            <Option value="0" name="StorageMode" type="int"/>
-            <Option value="" name="StorageType" type="QString"/>
+            <Option name="RelativeStorage" type="int" value="0"/>
+            <Option name="StorageAuthConfigId" type="QString" value=""/>
+            <Option name="StorageMode" type="int" value="0"/>
+            <Option name="StorageType" type="QString" value=""/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="RELEVE">
+    <field name="RELEVE" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="PHENO">
+    <field name="PHENO" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="DETERMINAT">
+    <field name="DETERMINAT" configurationFlags="None">
       <editWidget type="CheckBox">
         <config>
           <Option type="Map">
-            <Option value="Incertaine" name="CheckedState" type="QString"/>
-            <Option value="1" name="TextDisplayMethod" type="int"/>
-            <Option value="Certaine" name="UncheckedState" type="QString"/>
+            <Option name="CheckedState" type="QString" value="Incertaine"/>
+            <Option name="TextDisplayMethod" type="int" value="1"/>
+            <Option name="UncheckedState" type="QString" value="Certaine"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="PHYTOSOCIO">
+    <field name="PHYTOSOCIO" configurationFlags="None">
       <editWidget type="CheckBox">
         <config>
           <Option type="Map">
-            <Option value="Oui" name="CheckedState" type="QString"/>
-            <Option value="1" name="TextDisplayMethod" type="int"/>
-            <Option value="Non" name="UncheckedState" type="QString"/>
+            <Option name="CheckedState" type="QString" value="Oui"/>
+            <Option name="TextDisplayMethod" type="int" value="1"/>
+            <Option name="UncheckedState" type="QString" value="Non"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="ARBO">
+    <field name="ARBO" configurationFlags="None">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
             <Option name="map" type="List">
               <Option type="Map">
-                <Option value="5" name="5 (75-100%)" type="QString"/>
+                <Option name="5" type="QString" value="5"/>
               </Option>
               <Option type="Map">
-                <Option value="4" name="4 (50-75%)" type="QString"/>
+                <Option name="4" type="QString" value="4"/>
               </Option>
               <Option type="Map">
-                <Option value="3" name="3 (25-50%)" type="QString"/>
+                <Option name="3" type="QString" value="3"/>
               </Option>
               <Option type="Map">
-                <Option value="2" name="2 (5-25%)" type="QString"/>
+                <Option name="2" type="QString" value="2"/>
               </Option>
               <Option type="Map">
-                <Option value="1" name="1 (Nombreux &lt;5%)" type="QString"/>
+                <Option name="1" type="QString" value="1"/>
               </Option>
               <Option type="Map">
-                <Option value="+" name="+ (Peu nombreux &lt;5%)" type="QString"/>
+                <Option name="+" type="QString" value="+"/>
               </Option>
               <Option type="Map">
-                <Option value="r" name="r (&lt;1%)" type="QString"/>
+                <Option name="r" type="QString" value="r"/>
               </Option>
               <Option type="Map">
-                <Option value="i" name="i (Individu unique non recouvrant)" type="QString"/>
+                <Option name="i" type="QString" value="i"/>
               </Option>
             </Option>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="ARBU">
+    <field name="ARBU" configurationFlags="None">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
             <Option name="map" type="List">
               <Option type="Map">
-                <Option value="5" name="5 (75-100%)" type="QString"/>
+                <Option name="5" type="QString" value="5"/>
               </Option>
               <Option type="Map">
-                <Option value="4" name="4 (50-75%)" type="QString"/>
+                <Option name="4" type="QString" value="4"/>
               </Option>
               <Option type="Map">
-                <Option value="3" name="3 (25-50%)" type="QString"/>
+                <Option name="3" type="QString" value="3"/>
               </Option>
               <Option type="Map">
-                <Option value="2" name="2 (5-25%)" type="QString"/>
+                <Option name="2" type="QString" value="2"/>
               </Option>
               <Option type="Map">
-                <Option value="1" name="1 (Nombreux &lt;5%)" type="QString"/>
+                <Option name="1" type="QString" value="1"/>
               </Option>
               <Option type="Map">
-                <Option value="+" name="+ (Peu nombreux &lt;5%)" type="QString"/>
+                <Option name="+" type="QString" value="+"/>
               </Option>
               <Option type="Map">
-                <Option value="r" name="r (&lt;1%)" type="QString"/>
+                <Option name="r" type="QString" value="r"/>
               </Option>
               <Option type="Map">
-                <Option value="i" name="i (Individu unique non recouvrant)" type="QString"/>
+                <Option name="i" type="QString" value="i"/>
               </Option>
             </Option>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="HERB">
+    <field name="HERB" configurationFlags="None">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
             <Option name="map" type="List">
               <Option type="Map">
-                <Option value="5" name="5 (75-100%)" type="QString"/>
+                <Option name="5" type="QString" value="5"/>
               </Option>
               <Option type="Map">
-                <Option value="4" name="4 (50-75%)" type="QString"/>
+                <Option name="4" type="QString" value="4"/>
               </Option>
               <Option type="Map">
-                <Option value="3" name="3 (25-50%)" type="QString"/>
+                <Option name="3" type="QString" value="3"/>
               </Option>
               <Option type="Map">
-                <Option value="2" name="2 (5-25%)" type="QString"/>
+                <Option name="2" type="QString" value="2"/>
               </Option>
               <Option type="Map">
-                <Option value="1" name="1 (Nombreux &lt;5%)" type="QString"/>
+                <Option name="1" type="QString" value="1"/>
               </Option>
               <Option type="Map">
-                <Option value="+" name="+ (Peu nombreux &lt;5%)" type="QString"/>
+                <Option name="+" type="QString" value="+"/>
               </Option>
               <Option type="Map">
-                <Option value="r" name="r (&lt;1%)" type="QString"/>
+                <Option name="r" type="QString" value="r"/>
               </Option>
               <Option type="Map">
-                <Option value="i" name="i (Individu unique non recouvrant)" type="QString"/>
+                <Option name="i" type="QString" value="i"/>
               </Option>
             </Option>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="MUCINALE">
+    <field name="MUCINALE" configurationFlags="None">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
             <Option name="map" type="List">
               <Option type="Map">
-                <Option value="5" name="5 (75-100%)" type="QString"/>
+                <Option name="5" type="QString" value="5"/>
               </Option>
               <Option type="Map">
-                <Option value="4" name="4 (50-75%)" type="QString"/>
+                <Option name="4" type="QString" value="4"/>
               </Option>
               <Option type="Map">
-                <Option value="3" name="3 (25-50%)" type="QString"/>
+                <Option name="3" type="QString" value="3"/>
               </Option>
               <Option type="Map">
-                <Option value="2" name="2 (5-25%)" type="QString"/>
+                <Option name="2" type="QString" value="2"/>
               </Option>
               <Option type="Map">
-                <Option value="1" name="1 (Nombreux &lt;5%)" type="QString"/>
+                <Option name="1" type="QString" value="1"/>
               </Option>
               <Option type="Map">
-                <Option value="+" name="+ (Peu nombreux &lt;5%)" type="QString"/>
+                <Option name="+" type="QString" value="+"/>
               </Option>
               <Option type="Map">
-                <Option value="r" name="r (&lt;1%)" type="QString"/>
+                <Option name="r" type="QString" value="r"/>
               </Option>
               <Option type="Map">
-                <Option value="i" name="i (Individu unique non recouvrant)" type="QString"/>
+                <Option name="i" type="QString" value="i"/>
               </Option>
             </Option>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="PROJET">
+    <field name="PROJET" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="BBSYNUSIE">
+    <field name="BBSYNUSIE" configurationFlags="None">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
             <Option name="map" type="List">
               <Option type="Map">
-                <Option value="5" name="5 (75-100%)" type="QString"/>
+                <Option name="5" type="QString" value="5"/>
               </Option>
               <Option type="Map">
-                <Option value="4" name="4 (50-75%)" type="QString"/>
+                <Option name="4" type="QString" value="4"/>
               </Option>
               <Option type="Map">
-                <Option value="3" name="3 (25-50%)" type="QString"/>
+                <Option name="3" type="QString" value="3"/>
               </Option>
               <Option type="Map">
-                <Option value="2b" name="2b (12,5-25%)" type="QString"/>
+                <Option name="2b" type="QString" value="2b"/>
               </Option>
               <Option type="Map">
-                <Option value="2a" name="2a (5-12,5%)" type="QString"/>
+                <Option name="2a" type="QString" value="2a"/>
               </Option>
               <Option type="Map">
-                <Option value="1" name="1 (Nombreux &lt;5%)" type="QString"/>
+                <Option name="1" type="QString" value="1"/>
               </Option>
               <Option type="Map">
-                <Option value="+" name="+ (Peu nombreux &lt;5%)" type="QString"/>
+                <Option name="+" type="QString" value="+"/>
               </Option>
               <Option type="Map">
-                <Option value="r" name="r (&lt;1%)" type="QString"/>
+                <Option name="r" type="QString" value="r"/>
               </Option>
               <Option type="Map">
-                <Option value="i" name="i (Individu unique non recouvrant)" type="QString"/>
+                <Option name="i" type="QString" value="i"/>
               </Option>
             </Option>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="SYNUSIAL">
+    <field name="SYNUSIAL" configurationFlags="None">
       <editWidget type="CheckBox">
         <config>
           <Option type="Map">
-            <Option value="Oui" name="CheckedState" type="QString"/>
-            <Option value="0" name="TextDisplayMethod" type="int"/>
-            <Option value="Non" name="UncheckedState" type="QString"/>
+            <Option name="CheckedState" type="QString" value="Oui"/>
+            <Option name="TextDisplayMethod" type="int" value="0"/>
+            <Option name="UncheckedState" type="QString" value="Non"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="CD_SYNUSIE">
+    <field name="CD_SYNUSIE" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option value="false" name="IsMultiline" type="bool"/>
-            <Option value="false" name="UseHtml" type="bool"/>
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
           </Option>
         </config>
       </editWidget>
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias field="Surface" name="Surface recouverte" index="0"/>
-    <alias field="Nombre" name="" index="1"/>
-    <alias field="Notes" name="" index="2"/>
-    <alias field="NomComplet" name="Nom scientifique" index="3"/>
-    <alias field="Photo1" name="" index="4"/>
-    <alias field="Photo2" name="" index="5"/>
-    <alias field="X" name="" index="6"/>
-    <alias field="Y" name="" index="7"/>
-    <alias field="DATE" name="Date" index="8"/>
-    <alias field="OBS" name="Observateur" index="9"/>
-    <alias field="Photo3" name="" index="10"/>
-    <alias field="Photo4" name="" index="11"/>
-    <alias field="Photo5" name="" index="12"/>
-    <alias field="RELEVE" name="Nom du relevé" index="13"/>
-    <alias field="PHENO" name="Phénologie" index="14"/>
-    <alias field="DETERMINAT" name="Détermination incertaine" index="15"/>
-    <alias field="PHYTOSOCIO" name="Relevé sigmatiste" index="16"/>
-    <alias field="ARBO" name="Strate arborée (>5m)" index="17"/>
-    <alias field="ARBU" name="Strate arbustive (1 à 5m)" index="18"/>
-    <alias field="HERB" name="Strate herbacées (&lt;1m)" index="19"/>
-    <alias field="MUCINALE" name="Strate mucinale ou bryo-lichénique" index="20"/>
-    <alias field="PROJET" name="Projet" index="21"/>
-    <alias field="BBSYNUSIE" name="Recouvrement" index="22"/>
-    <alias field="SYNUSIAL" name="Relevé synusial" index="23"/>
-    <alias field="CD_SYNUSIE" name="Code de la synusie" index="24"/>
+    <alias name="Surface recouverte" field="Surface" index="0"/>
+    <alias name="" field="Nombre" index="1"/>
+    <alias name="" field="Notes" index="2"/>
+    <alias name="Nom scientifique" field="NomComplet" index="3"/>
+    <alias name="" field="Photo1" index="4"/>
+    <alias name="" field="Photo2" index="5"/>
+    <alias name="" field="X" index="6"/>
+    <alias name="" field="Y" index="7"/>
+    <alias name="Date" field="DATE" index="8"/>
+    <alias name="Observateur" field="OBS" index="9"/>
+    <alias name="" field="Photo3" index="10"/>
+    <alias name="" field="Photo4" index="11"/>
+    <alias name="" field="Photo5" index="12"/>
+    <alias name="Nom du relevé" field="RELEVE" index="13"/>
+    <alias name="Phénologie" field="PHENO" index="14"/>
+    <alias name="Détermination incertaine" field="DETERMINAT" index="15"/>
+    <alias name="Relevé sigmatiste" field="PHYTOSOCIO" index="16"/>
+    <alias name="Strate arborée (>5m)" field="ARBO" index="17"/>
+    <alias name="Strate arbustive (1 à 5m)" field="ARBU" index="18"/>
+    <alias name="Strate herbacées (&lt;1m)" field="HERB" index="19"/>
+    <alias name="Strate mucinale ou bryo-lichénique" field="MUCINALE" index="20"/>
+    <alias name="Projet" field="PROJET" index="21"/>
+    <alias name="Recouvrement" field="BBSYNUSIE" index="22"/>
+    <alias name="Relevé synusial" field="SYNUSIAL" index="23"/>
+    <alias name="Code de la synusie" field="CD_SYNUSIE" index="24"/>
   </aliases>
   <defaults>
-    <default field="Surface" expression="" applyOnUpdate="0"/>
-    <default field="Nombre" expression="1" applyOnUpdate="0"/>
-    <default field="Notes" expression="" applyOnUpdate="0"/>
-    <default field="NomComplet" expression="" applyOnUpdate="0"/>
-    <default field="Photo1" expression="" applyOnUpdate="0"/>
-    <default field="Photo2" expression="" applyOnUpdate="0"/>
-    <default field="X" expression="$x" applyOnUpdate="1"/>
-    <default field="Y" expression="$y" applyOnUpdate="1"/>
-    <default field="DATE" expression="now()" applyOnUpdate="0"/>
-    <default field="OBS" expression="if(@Observateur IS NOT NULL,@Observateur,'')" applyOnUpdate="0"/>
-    <default field="Photo3" expression="" applyOnUpdate="0"/>
-    <default field="Photo4" expression="" applyOnUpdate="0"/>
-    <default field="Photo5" expression="" applyOnUpdate="0"/>
-    <default field="RELEVE" expression="" applyOnUpdate="0"/>
-    <default field="PHENO" expression="" applyOnUpdate="0"/>
-    <default field="DETERMINAT" expression="" applyOnUpdate="0"/>
-    <default field="PHYTOSOCIO" expression="'Non'" applyOnUpdate="0"/>
-    <default field="ARBO" expression="" applyOnUpdate="0"/>
-    <default field="ARBU" expression="" applyOnUpdate="0"/>
-    <default field="HERB" expression="" applyOnUpdate="0"/>
-    <default field="MUCINALE" expression="" applyOnUpdate="0"/>
-    <default field="PROJET" expression="" applyOnUpdate="0"/>
-    <default field="BBSYNUSIE" expression="" applyOnUpdate="0"/>
-    <default field="SYNUSIAL" expression="" applyOnUpdate="0"/>
-    <default field="CD_SYNUSIE" expression="" applyOnUpdate="0"/>
+    <default field="Surface" applyOnUpdate="0" expression=""/>
+    <default field="Nombre" applyOnUpdate="0" expression="1"/>
+    <default field="Notes" applyOnUpdate="0" expression=""/>
+    <default field="NomComplet" applyOnUpdate="0" expression=""/>
+    <default field="Photo1" applyOnUpdate="0" expression=""/>
+    <default field="Photo2" applyOnUpdate="0" expression=""/>
+    <default field="X" applyOnUpdate="1" expression="$x"/>
+    <default field="Y" applyOnUpdate="1" expression="$y"/>
+    <default field="DATE" applyOnUpdate="0" expression="now()"/>
+    <default field="OBS" applyOnUpdate="0" expression=""/>
+    <default field="Photo3" applyOnUpdate="0" expression=""/>
+    <default field="Photo4" applyOnUpdate="0" expression=""/>
+    <default field="Photo5" applyOnUpdate="0" expression=""/>
+    <default field="RELEVE" applyOnUpdate="0" expression=""/>
+    <default field="PHENO" applyOnUpdate="0" expression=""/>
+    <default field="DETERMINAT" applyOnUpdate="0" expression=""/>
+    <default field="PHYTOSOCIO" applyOnUpdate="0" expression="'Non'"/>
+    <default field="ARBO" applyOnUpdate="0" expression=""/>
+    <default field="ARBU" applyOnUpdate="0" expression=""/>
+    <default field="HERB" applyOnUpdate="0" expression=""/>
+    <default field="MUCINALE" applyOnUpdate="0" expression=""/>
+    <default field="PROJET" applyOnUpdate="0" expression=""/>
+    <default field="BBSYNUSIE" applyOnUpdate="0" expression=""/>
+    <default field="SYNUSIAL" applyOnUpdate="0" expression=""/>
+    <default field="CD_SYNUSIE" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
-    <constraint field="Surface" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="Nombre" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="Notes" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="NomComplet" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="Photo1" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="Photo2" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="X" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="Y" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="DATE" exp_strength="0" constraints="1" notnull_strength="2" unique_strength="0"/>
-    <constraint field="OBS" exp_strength="0" constraints="1" notnull_strength="2" unique_strength="0"/>
-    <constraint field="Photo3" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="Photo4" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="Photo5" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="RELEVE" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="PHENO" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="DETERMINAT" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="PHYTOSOCIO" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="ARBO" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="ARBU" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="HERB" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="MUCINALE" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="PROJET" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="BBSYNUSIE" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="SYNUSIAL" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
-    <constraint field="CD_SYNUSIE" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+    <constraint field="Surface" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="Nombre" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="Notes" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="NomComplet" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="Photo1" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="Photo2" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="X" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="Y" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="DATE" constraints="1" exp_strength="0" unique_strength="0" notnull_strength="2"/>
+    <constraint field="OBS" constraints="1" exp_strength="0" unique_strength="0" notnull_strength="2"/>
+    <constraint field="Photo3" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="Photo4" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="Photo5" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="RELEVE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="PHENO" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="DETERMINAT" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="PHYTOSOCIO" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="ARBO" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="ARBU" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="HERB" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="MUCINALE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="PROJET" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="BBSYNUSIE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="SYNUSIAL" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="CD_SYNUSIE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint field="Surface" exp="" desc=""/>
-    <constraint field="Nombre" exp="" desc=""/>
-    <constraint field="Notes" exp="" desc=""/>
-    <constraint field="NomComplet" exp="" desc=""/>
-    <constraint field="Photo1" exp="" desc=""/>
-    <constraint field="Photo2" exp="" desc=""/>
-    <constraint field="X" exp="" desc=""/>
-    <constraint field="Y" exp="" desc=""/>
-    <constraint field="DATE" exp="" desc=""/>
-    <constraint field="OBS" exp="" desc=""/>
-    <constraint field="Photo3" exp="" desc=""/>
-    <constraint field="Photo4" exp="" desc=""/>
-    <constraint field="Photo5" exp="" desc=""/>
-    <constraint field="RELEVE" exp="" desc=""/>
-    <constraint field="PHENO" exp="" desc=""/>
-    <constraint field="DETERMINAT" exp="" desc=""/>
-    <constraint field="PHYTOSOCIO" exp="" desc=""/>
-    <constraint field="ARBO" exp="" desc=""/>
-    <constraint field="ARBU" exp="" desc=""/>
-    <constraint field="HERB" exp="" desc=""/>
-    <constraint field="MUCINALE" exp="" desc=""/>
-    <constraint field="PROJET" exp="" desc=""/>
-    <constraint field="BBSYNUSIE" exp="" desc=""/>
-    <constraint field="SYNUSIAL" exp="" desc=""/>
-    <constraint field="CD_SYNUSIE" exp="" desc=""/>
+    <constraint desc="" field="Surface" exp=""/>
+    <constraint desc="" field="Nombre" exp=""/>
+    <constraint desc="" field="Notes" exp=""/>
+    <constraint desc="" field="NomComplet" exp=""/>
+    <constraint desc="" field="Photo1" exp=""/>
+    <constraint desc="" field="Photo2" exp=""/>
+    <constraint desc="" field="X" exp=""/>
+    <constraint desc="" field="Y" exp=""/>
+    <constraint desc="" field="DATE" exp=""/>
+    <constraint desc="" field="OBS" exp=""/>
+    <constraint desc="" field="Photo3" exp=""/>
+    <constraint desc="" field="Photo4" exp=""/>
+    <constraint desc="" field="Photo5" exp=""/>
+    <constraint desc="" field="RELEVE" exp=""/>
+    <constraint desc="" field="PHENO" exp=""/>
+    <constraint desc="" field="DETERMINAT" exp=""/>
+    <constraint desc="" field="PHYTOSOCIO" exp=""/>
+    <constraint desc="" field="ARBO" exp=""/>
+    <constraint desc="" field="ARBU" exp=""/>
+    <constraint desc="" field="HERB" exp=""/>
+    <constraint desc="" field="MUCINALE" exp=""/>
+    <constraint desc="" field="PROJET" exp=""/>
+    <constraint desc="" field="BBSYNUSIE" exp=""/>
+    <constraint desc="" field="SYNUSIAL" exp=""/>
+    <constraint desc="" field="CD_SYNUSIE" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction value="{c243ff9b-62ca-44d7-aea6-1d2e69e0a2a2}" key="Canvas"/>
-    <actionsetting notificationMessage="" icon="" shortTitle="" id="{db7d2187-cc52-4134-ac18-894f387c666b}" name="ShowImage" type="5" isEnabledOnlyWhenEditable="0" action="[%Photo1%]" capture="0">
-      <actionScope id="Feature"/>
+    <defaultAction key="Canvas" value="{c243ff9b-62ca-44d7-aea6-1d2e69e0a2a2}"/>
+    <actionsetting name="ShowImage" action="[%Photo1%]" notificationMessage="" id="{db7d2187-cc52-4134-ac18-894f387c666b}" shortTitle="" icon="" type="5" capture="0" isEnabledOnlyWhenEditable="0">
       <actionScope id="Canvas"/>
+      <actionScope id="Feature"/>
     </actionsetting>
-    <actionsetting notificationMessage="" icon="" shortTitle="" id="{c243ff9b-62ca-44d7-aea6-1d2e69e0a2a2}" name="ShowImage2" type="5" isEnabledOnlyWhenEditable="0" action="[%Photo2%]" capture="0">
-      <actionScope id="Feature"/>
+    <actionsetting name="ShowImage2" action="[%Photo2%]" notificationMessage="" id="{c243ff9b-62ca-44d7-aea6-1d2e69e0a2a2}" shortTitle="" icon="" type="5" capture="0" isEnabledOnlyWhenEditable="0">
       <actionScope id="Canvas"/>
+      <actionScope id="Feature"/>
     </actionsetting>
   </attributeactions>
-  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+  <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
     <columns>
-      <column hidden="0" width="-1" name="RELEVE" type="field"/>
-      <column hidden="0" width="875" name="NomComplet" type="field"/>
-      <column hidden="0" width="100" name="Surface" type="field"/>
-      <column hidden="0" width="-1" name="Nombre" type="field"/>
-      <column hidden="0" width="100" name="Notes" type="field"/>
-      <column hidden="0" width="-1" name="DATE" type="field"/>
-      <column hidden="0" width="-1" name="OBS" type="field"/>
-      <column hidden="0" width="-1" name="Photo1" type="field"/>
-      <column hidden="0" width="435" name="Photo2" type="field"/>
-      <column hidden="0" width="-1" name="Photo3" type="field"/>
-      <column hidden="0" width="-1" name="Photo4" type="field"/>
-      <column hidden="0" width="-1" name="Photo5" type="field"/>
-      <column hidden="0" width="-1" name="X" type="field"/>
-      <column hidden="0" width="-1" name="Y" type="field"/>
-      <column hidden="0" width="-1" name="PHENO" type="field"/>
-      <column hidden="0" width="-1" name="DETERMINAT" type="field"/>
-      <column hidden="0" width="-1" name="PHYTOSOCIO" type="field"/>
-      <column hidden="0" width="-1" name="ARBO" type="field"/>
-      <column hidden="0" width="-1" name="ARBU" type="field"/>
-      <column hidden="0" width="-1" name="HERB" type="field"/>
-      <column hidden="0" width="-1" name="MUCINALE" type="field"/>
-      <column hidden="0" width="-1" name="PROJET" type="field"/>
-      <column hidden="0" width="-1" name="BBSYNUSIE" type="field"/>
-      <column hidden="0" width="-1" name="SYNUSIAL" type="field"/>
-      <column hidden="0" width="-1" name="CD_SYNUSIE" type="field"/>
-      <column hidden="1" width="-1" type="actions"/>
+      <column name="RELEVE" width="-1" type="field" hidden="0"/>
+      <column name="NomComplet" width="875" type="field" hidden="0"/>
+      <column name="Surface" width="100" type="field" hidden="0"/>
+      <column name="Nombre" width="-1" type="field" hidden="0"/>
+      <column name="Notes" width="100" type="field" hidden="0"/>
+      <column name="DATE" width="-1" type="field" hidden="0"/>
+      <column name="OBS" width="-1" type="field" hidden="0"/>
+      <column name="Photo1" width="-1" type="field" hidden="0"/>
+      <column name="Photo2" width="435" type="field" hidden="0"/>
+      <column name="Photo3" width="-1" type="field" hidden="0"/>
+      <column name="Photo4" width="-1" type="field" hidden="0"/>
+      <column name="Photo5" width="-1" type="field" hidden="0"/>
+      <column name="X" width="-1" type="field" hidden="0"/>
+      <column name="Y" width="-1" type="field" hidden="0"/>
+      <column name="PHENO" width="-1" type="field" hidden="0"/>
+      <column name="DETERMINAT" width="-1" type="field" hidden="0"/>
+      <column name="PHYTOSOCIO" width="-1" type="field" hidden="0"/>
+      <column name="ARBO" width="-1" type="field" hidden="0"/>
+      <column name="ARBU" width="-1" type="field" hidden="0"/>
+      <column name="HERB" width="-1" type="field" hidden="0"/>
+      <column name="MUCINALE" width="-1" type="field" hidden="0"/>
+      <column name="PROJET" width="-1" type="field" hidden="0"/>
+      <column name="BBSYNUSIE" width="-1" type="field" hidden="0"/>
+      <column name="SYNUSIAL" width="-1" type="field" hidden="0"/>
+      <column name="CD_SYNUSIE" width="-1" type="field" hidden="0"/>
+      <column width="-1" type="actions" hidden="1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -832,42 +832,42 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <attributeEditorContainer columnCount="1" visibilityExpressionEnabled="0" name="Pointage" groupBox="0" visibilityExpression="" showLabel="1">
-      <attributeEditorField name="NomComplet" showLabel="1" index="3"/>
-      <attributeEditorContainer columnCount="1" visibilityExpressionEnabled="1" name="Relevé synusial" groupBox="1" visibilityExpression=" &quot;SYNUSIAL&quot; ='Oui'" showLabel="1">
-        <attributeEditorField name="RELEVE" showLabel="1" index="13"/>
-        <attributeEditorField name="CD_SYNUSIE" showLabel="1" index="24"/>
-        <attributeEditorField name="BBSYNUSIE" showLabel="1" index="22"/>
+    <attributeEditorContainer name="Pointage" visibilityExpression="" columnCount="1" groupBox="0" showLabel="1" visibilityExpressionEnabled="0">
+      <attributeEditorField name="NomComplet" index="3" showLabel="1"/>
+      <attributeEditorContainer name="Relevé synusial" visibilityExpression=" &quot;SYNUSIAL&quot; ='Oui'" columnCount="1" groupBox="1" showLabel="1" visibilityExpressionEnabled="1">
+        <attributeEditorField name="RELEVE" index="13" showLabel="1"/>
+        <attributeEditorField name="CD_SYNUSIE" index="24" showLabel="1"/>
+        <attributeEditorField name="BBSYNUSIE" index="22" showLabel="1"/>
       </attributeEditorContainer>
-      <attributeEditorContainer columnCount="1" visibilityExpressionEnabled="1" name="Relevé sigmatiste" groupBox="1" visibilityExpression=" &quot;PHYTOSOCIO&quot; ='Oui'" showLabel="1">
-        <attributeEditorField name="RELEVE" showLabel="1" index="13"/>
-        <attributeEditorField name="ARBO" showLabel="1" index="17"/>
-        <attributeEditorField name="ARBU" showLabel="1" index="18"/>
-        <attributeEditorField name="HERB" showLabel="1" index="19"/>
-        <attributeEditorField name="MUCINALE" showLabel="1" index="20"/>
+      <attributeEditorContainer name="Relevé sigmatiste" visibilityExpression=" &quot;PHYTOSOCIO&quot; ='Oui'" columnCount="1" groupBox="1" showLabel="1" visibilityExpressionEnabled="1">
+        <attributeEditorField name="RELEVE" index="13" showLabel="1"/>
+        <attributeEditorField name="ARBO" index="17" showLabel="1"/>
+        <attributeEditorField name="ARBU" index="18" showLabel="1"/>
+        <attributeEditorField name="HERB" index="19" showLabel="1"/>
+        <attributeEditorField name="MUCINALE" index="20" showLabel="1"/>
       </attributeEditorContainer>
-      <attributeEditorField name="Nombre" showLabel="1" index="1"/>
-      <attributeEditorField name="DETERMINAT" showLabel="1" index="15"/>
-      <attributeEditorField name="PHENO" showLabel="1" index="14"/>
-      <attributeEditorField name="Surface" showLabel="1" index="0"/>
-      <attributeEditorField name="Notes" showLabel="1" index="2"/>
-      <attributeEditorField name="OBS" showLabel="1" index="9"/>
-      <attributeEditorField name="DATE" showLabel="1" index="8"/>
-      <attributeEditorField name="TAXAQgis_CD_NOM" showLabel="1" index="-1"/>
-      <attributeEditorField name="ESPQgis_CD_NOM" showLabel="1" index="-1"/>
+      <attributeEditorField name="Nombre" index="1" showLabel="1"/>
+      <attributeEditorField name="DETERMINAT" index="15" showLabel="1"/>
+      <attributeEditorField name="PHENO" index="14" showLabel="1"/>
+      <attributeEditorField name="Surface" index="0" showLabel="1"/>
+      <attributeEditorField name="Notes" index="2" showLabel="1"/>
+      <attributeEditorField name="OBS" index="9" showLabel="1"/>
+      <attributeEditorField name="DATE" index="8" showLabel="1"/>
+      <attributeEditorField name="TAXAQgis_CD_NOM" index="-1" showLabel="1"/>
+      <attributeEditorField name="ESPQgis_CD_NOM" index="-1" showLabel="1"/>
     </attributeEditorContainer>
-    <attributeEditorContainer columnCount="1" visibilityExpressionEnabled="0" name="Photos" groupBox="0" visibilityExpression="" showLabel="1">
-      <attributeEditorField name="Photo1" showLabel="1" index="4"/>
-      <attributeEditorField name="Photo2" showLabel="1" index="5"/>
-      <attributeEditorField name="Photo3" showLabel="1" index="10"/>
-      <attributeEditorField name="Photo4" showLabel="1" index="11"/>
-      <attributeEditorField name="Photo5" showLabel="1" index="12"/>
+    <attributeEditorContainer name="Photos" visibilityExpression="" columnCount="1" groupBox="0" showLabel="1" visibilityExpressionEnabled="0">
+      <attributeEditorField name="Photo1" index="4" showLabel="1"/>
+      <attributeEditorField name="Photo2" index="5" showLabel="1"/>
+      <attributeEditorField name="Photo3" index="10" showLabel="1"/>
+      <attributeEditorField name="Photo4" index="11" showLabel="1"/>
+      <attributeEditorField name="Photo5" index="12" showLabel="1"/>
     </attributeEditorContainer>
-    <attributeEditorContainer columnCount="1" visibilityExpressionEnabled="0" name="Informations complémentaires" groupBox="0" visibilityExpression="" showLabel="1">
-      <attributeEditorField name="PROJET" showLabel="1" index="21"/>
-      <attributeEditorField name="RELEVE" showLabel="1" index="13"/>
-      <attributeEditorField name="PHYTOSOCIO" showLabel="1" index="16"/>
-      <attributeEditorField name="SYNUSIAL" showLabel="1" index="23"/>
+    <attributeEditorContainer name="Informations complémentaires" visibilityExpression="" columnCount="1" groupBox="0" showLabel="1" visibilityExpressionEnabled="0">
+      <attributeEditorField name="PROJET" index="21" showLabel="1"/>
+      <attributeEditorField name="RELEVE" index="13" showLabel="1"/>
+      <attributeEditorField name="PHYTOSOCIO" index="16" showLabel="1"/>
+      <attributeEditorField name="SYNUSIAL" index="23" showLabel="1"/>
     </attributeEditorContainer>
   </attributeEditorForm>
   <editable>
@@ -911,44 +911,44 @@ def my_form_open(dialog, layer, feature):
     <field name="Y" editable="1"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="ARBO"/>
-    <field labelOnTop="0" name="ARBU"/>
-    <field labelOnTop="0" name="BBSYNUSIE"/>
-    <field labelOnTop="0" name="CD_NOM"/>
-    <field labelOnTop="0" name="CD_SYNUSIE"/>
-    <field labelOnTop="0" name="DATE"/>
-    <field labelOnTop="0" name="DETERMINAT"/>
-    <field labelOnTop="0" name="ESP"/>
-    <field labelOnTop="0" name="ESPQgis_CD_NOM"/>
-    <field labelOnTop="0" name="FAMILLE"/>
-    <field labelOnTop="0" name="FR"/>
-    <field labelOnTop="0" name="GroupTaxa"/>
-    <field labelOnTop="0" name="HERB"/>
-    <field labelOnTop="0" name="MUCINALE"/>
-    <field labelOnTop="0" name="NOM_VALIDE"/>
-    <field labelOnTop="0" name="NOM_VERN"/>
-    <field labelOnTop="0" name="NomComplet"/>
-    <field labelOnTop="0" name="Nombre"/>
-    <field labelOnTop="0" name="Notes"/>
-    <field labelOnTop="0" name="OBS"/>
-    <field labelOnTop="0" name="PHENO"/>
-    <field labelOnTop="0" name="PHYTOSOCIO"/>
-    <field labelOnTop="0" name="PROJET"/>
-    <field labelOnTop="0" name="Photo1"/>
-    <field labelOnTop="0" name="Photo2"/>
-    <field labelOnTop="0" name="Photo3"/>
-    <field labelOnTop="0" name="Photo4"/>
-    <field labelOnTop="0" name="Photo5"/>
-    <field labelOnTop="0" name="RELEVE"/>
-    <field labelOnTop="0" name="SYNUSIAL"/>
-    <field labelOnTop="0" name="Surface"/>
-    <field labelOnTop="0" name="TAXAQgis_CD_NOM"/>
-    <field labelOnTop="0" name="TAXAQgis_NOM_VALIDE"/>
-    <field labelOnTop="0" name="TAXAQgis_STATUT_FR"/>
-    <field labelOnTop="0" name="TRIGRAMME"/>
-    <field labelOnTop="0" name="Trigramme"/>
-    <field labelOnTop="0" name="X"/>
-    <field labelOnTop="0" name="Y"/>
+    <field name="ARBO" labelOnTop="0"/>
+    <field name="ARBU" labelOnTop="0"/>
+    <field name="BBSYNUSIE" labelOnTop="0"/>
+    <field name="CD_NOM" labelOnTop="0"/>
+    <field name="CD_SYNUSIE" labelOnTop="0"/>
+    <field name="DATE" labelOnTop="0"/>
+    <field name="DETERMINAT" labelOnTop="0"/>
+    <field name="ESP" labelOnTop="0"/>
+    <field name="ESPQgis_CD_NOM" labelOnTop="0"/>
+    <field name="FAMILLE" labelOnTop="0"/>
+    <field name="FR" labelOnTop="0"/>
+    <field name="GroupTaxa" labelOnTop="0"/>
+    <field name="HERB" labelOnTop="0"/>
+    <field name="MUCINALE" labelOnTop="0"/>
+    <field name="NOM_VALIDE" labelOnTop="0"/>
+    <field name="NOM_VERN" labelOnTop="0"/>
+    <field name="NomComplet" labelOnTop="0"/>
+    <field name="Nombre" labelOnTop="0"/>
+    <field name="Notes" labelOnTop="0"/>
+    <field name="OBS" labelOnTop="0"/>
+    <field name="PHENO" labelOnTop="0"/>
+    <field name="PHYTOSOCIO" labelOnTop="0"/>
+    <field name="PROJET" labelOnTop="0"/>
+    <field name="Photo1" labelOnTop="0"/>
+    <field name="Photo2" labelOnTop="0"/>
+    <field name="Photo3" labelOnTop="0"/>
+    <field name="Photo4" labelOnTop="0"/>
+    <field name="Photo5" labelOnTop="0"/>
+    <field name="RELEVE" labelOnTop="0"/>
+    <field name="SYNUSIAL" labelOnTop="0"/>
+    <field name="Surface" labelOnTop="0"/>
+    <field name="TAXAQgis_CD_NOM" labelOnTop="0"/>
+    <field name="TAXAQgis_NOM_VALIDE" labelOnTop="0"/>
+    <field name="TAXAQgis_STATUT_FR" labelOnTop="0"/>
+    <field name="TRIGRAMME" labelOnTop="0"/>
+    <field name="Trigramme" labelOnTop="0"/>
+    <field name="X" labelOnTop="0"/>
+    <field name="Y" labelOnTop="0"/>
   </labelOnTop>
   <reuseLastValue>
     <field name="ARBO" reuseLastValue="0"/>
