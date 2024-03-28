@@ -11,7 +11,7 @@ Projet Qfield comprenant :
 - 7 fonds de plan possibles : IGN Infrarouge / IGN Satellite / IGN Plan / Google Satellite / Open Street Map / Bing Satellite / ESRI Satellite.
 
 
-Le fichier zip directement utilisable depuis Qfield est disponible ici : [https://github.com/augustinsoulard/KIT_BOTA_QFIELD/archive/refs/heads/main.zip](https://github.com/augustinsoulard/KIT_BOTA_QFIELD/archive/refs/heads/main.zip)  
+Le fichier zip directement utilisable depuis Qfield est disponible ici : [https://github.com/augustinsoulard/KIT_BOTA_QFIELD/discussions/4](https://github.com/augustinsoulard/KIT_BOTA_QFIELD/discussions/4)  
   
 Vidéo YouTube présentant rapidement l'outil et comment l'utiliser : https://youtu.be/lodOT7tMeXg
 
