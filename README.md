@@ -1,5 +1,5 @@
-# Kit BOTA QFIELD
-***Version 1*** - *Augustin Soulard*
+# KIT BOTA QFIELD
+***Version 1.2*** - *Augustin Soulard*
 
 Projet Qfield comprenant :
 - Une couche point pour les relevés floristiques ;
@@ -8,7 +8,7 @@ Projet Qfield comprenant :
 - Une couche polygone pour les habitats (compatible EUNIS, Corine Biotope et Natura 2000) ;
 - Une couche point et sans géométrie pour les sondages pédologiques ;
 - Une couche point pour les remarques ;
-- 7 fonds de plan possibles : IGN Infrarouge / IGN Satellite / IGN Plan / Google Satellite / Open Street Map / Bing Satellite / ESRI Satellite.
+- 7 fonds de plan possibles : IGN Infrarouge / IGN Satellite / IGN Plan / Google Satellite / Open Street Map / Bing Satellite / ESRI Satellite / SPOT 6-7 2023.
 
 
 Le fichier zip directement utilisable depuis Qfield est disponible ici : [https://github.com/augustinsoulard/KIT_BOTA_QFIELD/discussions/4](https://github.com/augustinsoulard/KIT_BOTA_QFIELD/discussions/4)  
