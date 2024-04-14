@@ -19,7 +19,7 @@ Ce projet est réalisé en grande majorité bénévolement, mais Agence MTDA a a
 
 
 ***Version 2.0*** 
-Vous pouvez dors et déjà utiliser la version 2.0 du kit.
+Vous pouvez dors et déjà utiliser la version 2.0 du kit qui est actuellement en teste.
 Cette version comprend :
 - Une couche point pour les relevés floristiques ;
 - Une couche point pour les habitats et les relevés phytosociologiques sigmatistes et synusials ;
@@ -30,3 +30,5 @@ Cette version comprend :
 
 Cette nouvelle version apporte de nouvelles fonctionnalités liées à l'utilisation de requêtes SQL. Par exemple, la possibilité de consulter directement sur le terrain les statuts des espèces.
 Pour le moment, seul les statuts de la région PACA sont implémentés.
+
+Télécharger la version 2.0 : https://github.com/augustinsoulard/KIT_BOTA_QFIELD/archive/refs/heads/main.zip
