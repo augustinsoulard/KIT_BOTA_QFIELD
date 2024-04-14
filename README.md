@@ -18,6 +18,9 @@ Vidéo YouTube présentant rapidement l'outil et comment l'utiliser : https://yo
 Ce projet est réalisé en grande majorité bénévolement, mais Agence MTDA a accepté que j'utilise aussi de mon temps professionnel pour l'avancement de l'outil. Merci à eux !
 
 
+-------------------------------------------------------
+
+
 ***Version 2.0*** 
 Vous pouvez dors et déjà utiliser la version 2.0 du kit qui est actuellement en teste.
 Cette version comprend :
