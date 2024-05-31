@@ -1,0 +1,174 @@
+if("couleur" = 'Auto',
+if("eunislgd" IS NULL,
+CASE 
+WHEN  "couleur" = 'Rouge'
+THEN color_rgba(255,0,0,122)
+WHEN  "couleur" = 'Bleu'
+THEN color_rgba(0,0,255,122)
+WHEN  "couleur" = 'Vert'
+THEN color_rgba(0,255,0,122)
+WHEN  "couleur" = 'Jaune'
+THEN color_rgba(255,255,0,122)
+WHEN  "couleur" = 'Blanc'
+THEN color_rgba(255,255,255,80)
+END,
+
+CASE
+WHEN "eunislgd" = 'A' 
+THEN color_rgba(105,236,40,122)
+WHEN "eunislgd" = 'A1' 
+THEN color_rgba(71,240,81,122)
+WHEN "eunislgd" = 'A2' 
+THEN color_rgba(104,172,7,122)
+WHEN "eunislgd" = 'A3' 
+THEN color_rgba(250,218,119,122)
+WHEN "eunislgd" = 'A4' 
+THEN color_rgba(20,173,33,122)
+WHEN "eunislgd" = 'A5' 
+THEN color_rgba(215,23,205,122)
+WHEN "eunislgd" = 'A6' 
+THEN color_rgba(133,18,94,122)
+WHEN "eunislgd" = 'A7' 
+THEN color_rgba(76,143,49,122)
+WHEN "eunislgd" = 'A8' 
+THEN color_rgba(95,230,173,122)
+WHEN "eunislgd" = 'B' 
+THEN color_rgba(194,232,211,122)
+WHEN "eunislgd" = 'B1' 
+THEN color_rgba(107,11,28,122)
+WHEN "eunislgd" = 'B2' 
+THEN color_rgba(47,168,128,122)
+WHEN "eunislgd" = 'B3' 
+THEN color_rgba(24,173,220,122)
+WHEN "eunislgd" = 'C' 
+THEN color_rgba(136,51,201,122)
+WHEN "eunislgd" = 'C1' 
+THEN color_rgba(18,67,135,122)
+WHEN "eunislgd" = 'C2' 
+THEN color_rgba(26,103,178,122)
+WHEN "eunislgd" = 'C3' 
+THEN color_rgba(33,181,141,122)
+WHEN "eunislgd" = 'D' 
+THEN color_rgba(105,88,108,122)
+WHEN "eunislgd" = 'D1' 
+THEN color_rgba(105,21,227,122)
+WHEN "eunislgd" = 'D2' 
+THEN color_rgba(91,39,201,122)
+WHEN "eunislgd" = 'D3' 
+THEN color_rgba(19,65,24,122)
+WHEN "eunislgd" = 'D4' 
+THEN color_rgba(193,151,182,122)
+WHEN "eunislgd" = 'D5' 
+THEN color_rgba(34,206,145,122)
+WHEN "eunislgd" = 'D6' 
+THEN color_rgba(106,66,216,122)
+WHEN "eunislgd" = 'E' 
+THEN color_rgba(13,175,124,122)
+WHEN "eunislgd" = 'E1' 
+THEN color_rgba(56,243,134,122)
+WHEN "eunislgd" = 'E2' 
+THEN color_rgba(103,89,42,122)
+WHEN "eunislgd" = 'E3' 
+THEN color_rgba(94,201,223,122)
+WHEN "eunislgd" = 'E4' 
+THEN color_rgba(122,16,159,122)
+WHEN "eunislgd" = 'E5' 
+THEN color_rgba(14,95,1,122)
+WHEN "eunislgd" = 'E6' 
+THEN color_rgba(12,71,27,122)
+WHEN "eunislgd" = 'E7' 
+THEN color_rgba(12,159,105,122)
+WHEN "eunislgd" = 'F' 
+THEN color_rgba(90,78,157,122)
+WHEN "eunislgd" = 'F1' 
+THEN color_rgba(71,193,36,122)
+WHEN "eunislgd" = 'F2' 
+THEN color_rgba(208,24,197,122)
+WHEN "eunislgd" = 'F3' 
+THEN color_rgba(50,122,11,122)
+WHEN "eunislgd" = 'F4' 
+THEN color_rgba(134,241,12,122)
+WHEN "eunislgd" = 'F5' 
+THEN color_rgba(150,141,76,122)
+WHEN "eunislgd" = 'F6' 
+THEN color_rgba(39,184,82,122)
+WHEN "eunislgd" = 'F7' 
+THEN color_rgba(157,221,71,122)
+WHEN "eunislgd" = 'F8' 
+THEN color_rgba(193,141,161,122)
+WHEN "eunislgd" = 'F9' 
+THEN color_rgba(26,152,206,122)
+WHEN "eunislgd" = 'FA' 
+THEN color_rgba(65,16,4,122)
+WHEN "eunislgd" = 'FB' 
+THEN color_rgba(120,252,10,122)
+WHEN "eunislgd" = 'G' 
+THEN color_rgba(199,142,250,122)
+WHEN "eunislgd" = 'G1' 
+THEN color_rgba(130,7,2,122)
+WHEN "eunislgd" = 'G2' 
+THEN color_rgba(15,28,58,122)
+WHEN "eunislgd" = 'G3' 
+THEN color_rgba(195,143,77,122)
+WHEN "eunislgd" = 'G4' 
+THEN color_rgba(139,81,139,122)
+WHEN "eunislgd" = 'G5' 
+THEN color_rgba(159,148,154,122)
+WHEN "eunislgd" = 'H' 
+THEN color_rgba(182,79,55,122)
+WHEN "eunislgd" = 'H1' 
+THEN color_rgba(133,209,96,122)
+WHEN "eunislgd" = 'H2' 
+THEN color_rgba(207,248,172,122)
+WHEN "eunislgd" = 'H3' 
+THEN color_rgba(170,9,155,122)
+WHEN "eunislgd" = 'H4' 
+THEN color_rgba(14,232,29,122)
+WHEN "eunislgd" = 'H5' 
+THEN color_rgba(231,160,65,122)
+WHEN "eunislgd" = 'H6' 
+THEN color_rgba(137,147,172,122)
+WHEN "eunislgd" = 'I' 
+THEN color_rgba(77,23,14,122)
+WHEN "eunislgd" = 'I1' 
+THEN color_rgba(216,62,40,122)
+WHEN "eunislgd" = 'I2' 
+THEN color_rgba(244,229,14,122)
+WHEN "eunislgd" = 'J' 
+THEN color_rgba(81,61,75,122)
+WHEN "eunislgd" = 'J1' 
+THEN color_rgba(72,100,3,122)
+WHEN "eunislgd" = 'J2' 
+THEN color_rgba(158,222,60,122)
+WHEN "eunislgd" = 'J3' 
+THEN color_rgba(192,217,112,122)
+WHEN "eunislgd" = 'J4' 
+THEN color_rgba(166,135,104,122)
+WHEN "eunislgd" = 'J5' 
+THEN color_rgba(53,4,209,122)
+WHEN "eunislgd" = 'J6' 
+THEN color_rgba(142,16,187,122)
+WHEN "eunislgd" = 'X' 
+THEN color_rgba(107,106,117,122)
+WHEN "eunislgd" = 'X0' 
+THEN color_rgba(136,149,254,122)
+WHEN "eunislgd" = 'X1' 
+THEN color_rgba(162,76,232,122)
+WHEN "eunislgd" = 'X2' 
+THEN color_rgba(128,62,6,122)
+WHEN "eunislgd" = 'X3' 
+THEN color_rgba(181,79,124,122)
+END
+),
+CASE 
+WHEN  "couleur" = 'Rouge'
+THEN color_rgba(255,0,0,122)
+WHEN  "couleur" = 'Bleu'
+THEN color_rgba(0,0,255,122)
+WHEN  "couleur" = 'Vert'
+THEN color_rgba(0,255,0,122)
+WHEN  "couleur" = 'Jaune'
+THEN color_rgba(255,255,0,122)
+WHEN  "couleur" = 'Blanc'
+THEN color_rgba(255,255,255,80)
+END)
