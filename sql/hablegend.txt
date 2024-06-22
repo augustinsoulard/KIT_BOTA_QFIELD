@@ -2,18 +2,41 @@
  regexp_replace(
 	regexp_replace( 
 		if("eunis1" IS NULL,'',left("eunis1",strpos("eunis1",'-')-1)) || 
-			if("eunis2" IS NULL,'','x'||left("eunis2",strpos("eunis2",'-')-1))||
+			if("eunis2" IS NULL,'',' x '||left("eunis2",strpos("eunis2",'-')-1)||' - ')||
 
 			if("hablabel" IS NULL, 
 
 
-			if( "eunis2" IS NULL, '-'||
+			if( "eunis2" IS NULL, ' - '||
 			right("eunis1", length("eunis1")- strpos("eunis1",'-')), 
 
 			right("eunis1", length("eunis1")- strpos("eunis1",'-'))  
-			||'x'|| 
+			||' x '|| 
 			right("eunis2", length("eunis2")- strpos("eunis2",'-'))    )
 		 
-		,'-'||"hablabel"),
+		,' - '||"hablabel"),
+	'<em>','' ),
+'</em>','') 
+
+
+
+################################Ancienne version
+
+ regexp_replace(
+	regexp_replace( 
+		if("TYPO_EUNIS" IS NULL,'',left("TYPO_EUNIS",strpos("TYPO_EUNIS",'-')-1)) || 
+			if("LB_EUNIS2" IS NULL,'','x'||left("LB_EUNIS2",strpos("LB_EUNIS2",'-')-1)||'-')||
+
+			if("HABLABEL" IS NULL, 
+
+
+			if( "LB_EUNIS2" IS NULL, '-'||
+			right("TYPO_EUNIS", length("TYPO_EUNIS")- strpos("TYPO_EUNIS",'-')), 
+
+			right("TYPO_EUNIS", length("TYPO_EUNIS")- strpos("TYPO_EUNIS",'-'))  
+			||'x'|| 
+			right("LB_EUNIS2", length("LB_EUNIS2")- strpos("LB_EUNIS2",'-'))   )
+		 
+		,'-'||"HABLABEL"),
 	'<em>','' ),
 '</em>','') 
