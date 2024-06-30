@@ -1,6 +1,0 @@
-SELECT * FROM (SELECT Flore.*, TAXAQgis.CD_NOM 	
-FROM Flore 	
-LEFT JOIN TAXAQgis 
-ON Flore.lb_nom = TAXAQgis.LB_NOM) AS A  
-JOIN Method_enjeu_PACA 
-ON A.CD_NOM = Method_enjeu_PACA.CD_NOM

@@ -25,7 +25,7 @@ Ce projet est réalisé en grande majorité bénévolement, mais Agence MTDA a a
 Vous pouvez dors et déjà utiliser la version 2.0 du kit qui est actuellement en teste.
 Cette version comprend :
 - Une couche point pour les relevés floristiques ;
-- Une couche point pour les habitats et les relevés phytosociologiques sigmatistes et synusials ;
+- Une couche point pour les habitats et les relevés phytosociologiques sigmatistes ;
 - Une couche polygone pour les habitats (compatible avec les EUNIS, Corine Biotope, Natura 2000, Catminat, PVF2) ;
 - Une couche point et sans géométrie pour les sondages pédologiques ;
 - Une couche point pour les remarques ;
