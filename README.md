@@ -31,7 +31,4 @@ Cette version comprend :
 - Une couche point pour les remarques ;
 - 7 fonds de plan possibles : IGN Infrarouge / IGN Satellite / IGN Plan / Google Satellite / Open Street Map / Bing Satellite / ESRI Satellite / SPOT 6-7 2023.
 
-Cette nouvelle version apporte de nouvelles fonctionnalités liées à l'utilisation de requêtes SQL. Par exemple, la possibilité de consulter directement sur le terrain les statuts des espèces.
-Pour le moment, seul les statuts de la région PACA sont implémentés.
-
 Télécharger la version 2.0 : https://github.com/augustinsoulard/KIT_BOTA_QFIELD/archive/refs/heads/main.zip
