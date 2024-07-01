@@ -1,23 +1,21 @@
-
  regexp_replace(
 	regexp_replace( 
 		if("eunis1" IS NULL,'',left("eunis1",strpos("eunis1",'-')-1)) || 
-			if("eunis2" IS NULL,'',' x '||left("eunis2",strpos("eunis2",'-')-1)||' - ')||
+			if("eunis2" IS NULL,'','x'||left("eunis2",strpos("eunis2",'-')-1)||'-')||
 
 			if("hablabel" IS NULL, 
 
 
-			if( "eunis2" IS NULL, ' - '||
+			if( "eunis2" IS NULL, '-'||
 			right("eunis1", length("eunis1")- strpos("eunis1",'-')), 
 
 			right("eunis1", length("eunis1")- strpos("eunis1",'-'))  
 			||' x '|| 
-			right("eunis2", length("eunis2")- strpos("eunis2",'-'))    )
+			right("eunis2", length("eunis2")- strpos("eunis2",'-'))   )
 		 
-		,' - '||"hablabel"),
+		,'-'||"hablabel"),
 	'<em>','' ),
 '</em>','') 
-
 
 
 ################################Ancienne version
