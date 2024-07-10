@@ -1,18 +1,18 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyAlgorithm="0" version="3.34.5-Prizren" styleCategories="AllStyleCategories" simplifyLocal="1" maxScale="0" simplifyMaxScale="1" minScale="100000000" labelsEnabled="1" simplifyDrawingHints="0" hasScaleBasedVisibilityFlag="0" symbologyReferenceScale="-1" readOnly="0" simplifyDrawingTol="1">
+<qgis maxScale="0" labelsEnabled="1" simplifyDrawingHints="0" simplifyAlgorithm="0" version="3.34.5-Prizren" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" minScale="100000000" simplifyDrawingTol="1" symbologyReferenceScale="-1" styleCategories="AllStyleCategories" simplifyLocal="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal startField="date" endField="" limitMode="0" durationField="fid" accumulate="0" startExpression="" endExpression="" enabled="0" durationUnit="min" fixedDuration="0" mode="0">
+  <temporal fixedDuration="0" durationField="fid" accumulate="0" endField="" startField="date" startExpression="" durationUnit="min" mode="0" endExpression="" enabled="0" limitMode="0">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <elevation extrusionEnabled="0" type="IndividualFeatures" clamping="Terrain" showMarkerSymbolInSurfacePlots="0" zoffset="0" symbology="Line" respectLayerSymbol="1" binding="Centroid" extrusion="0" zscale="1">
+  <elevation respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" extrusion="0" zoffset="0" binding="Centroid" symbology="Line" zscale="1" type="IndividualFeatures" extrusionEnabled="0" clamping="Terrain">
     <data-defined-properties>
       <Option type="Map">
         <Option type="QString" value="" name="name"/>
@@ -21,7 +21,7 @@
       </Option>
     </data-defined-properties>
     <profileLineSymbol>
-      <symbol type="line" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0">
+      <symbol clip_to_extent="1" type="line" force_rhr="0" alpha="1" frame_rate="10" name="" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -29,7 +29,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleLine" id="{71ea6989-4646-470b-a840-6c4ae85f6ca9}" enabled="1" locked="0" pass="0">
+        <layer class="SimpleLine" pass="0" locked="0" id="{71ea6989-4646-470b-a840-6c4ae85f6ca9}" enabled="1">
           <Option type="Map">
             <Option type="QString" value="0" name="align_dash_pattern"/>
             <Option type="QString" value="square" name="capstyle"/>
@@ -70,7 +70,7 @@
       </symbol>
     </profileLineSymbol>
     <profileFillSymbol>
-      <symbol type="fill" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0">
+      <symbol clip_to_extent="1" type="fill" force_rhr="0" alpha="1" frame_rate="10" name="" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -78,7 +78,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleFill" id="{00cfce33-90ad-4ef9-b525-e4e1559a0953}" enabled="1" locked="0" pass="0">
+        <layer class="SimpleFill" pass="0" locked="0" id="{00cfce33-90ad-4ef9-b525-e4e1559a0953}" enabled="1">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
             <Option type="QString" value="255,158,23,255" name="color"/>
@@ -103,7 +103,7 @@
       </symbol>
     </profileFillSymbol>
     <profileMarkerSymbol>
-      <symbol type="marker" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0">
+      <symbol clip_to_extent="1" type="marker" force_rhr="0" alpha="1" frame_rate="10" name="" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -111,7 +111,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleMarker" id="{bc3bda2b-2eca-461c-87e3-e9bab91dae12}" enabled="1" locked="0" pass="0">
+        <layer class="SimpleMarker" pass="0" locked="0" id="{bc3bda2b-2eca-461c-87e3-e9bab91dae12}" enabled="1">
           <Option type="Map">
             <Option type="QString" value="0" name="angle"/>
             <Option type="QString" value="square" name="cap_style"/>
@@ -144,9 +144,9 @@
       </symbol>
     </profileMarkerSymbol>
   </elevation>
-  <renderer-v2 type="singleSymbol" referencescale="-1" enableorderby="0" forceraster="0" symbollevels="0">
+  <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol" referencescale="-1">
     <symbols>
-      <symbol type="marker" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="0" is_animated="0">
+      <symbol clip_to_extent="1" type="marker" force_rhr="0" alpha="1" frame_rate="10" name="0" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -154,7 +154,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleMarker" id="{43589a8b-78d6-4414-af0e-e792cb965679}" enabled="1" locked="0" pass="0">
+        <layer class="SimpleMarker" pass="0" locked="0" id="{43589a8b-78d6-4414-af0e-e792cb965679}" enabled="1">
           <Option type="Map">
             <Option type="QString" value="0" name="angle"/>
             <Option type="QString" value="square" name="cap_style"/>
@@ -198,7 +198,7 @@
   <selection mode="Default">
     <selectionColor invalid="1"/>
     <selectionSymbol>
-      <symbol type="marker" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0">
+      <symbol clip_to_extent="1" type="marker" force_rhr="0" alpha="1" frame_rate="10" name="" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -206,7 +206,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleMarker" id="{c0fedfe9-eddf-4c9d-b410-78334bf2c8ef}" enabled="1" locked="0" pass="0">
+        <layer class="SimpleMarker" pass="0" locked="0" id="{c0fedfe9-eddf-4c9d-b410-78334bf2c8ef}" enabled="1">
           <Option type="Map">
             <Option type="QString" value="0" name="angle"/>
             <Option type="QString" value="square" name="cap_style"/>
@@ -241,12 +241,12 @@
   </selection>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style fontKerning="1" legendString="Aa" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Open Sans" fontItalic="0" allowHtml="0" fontLetterSpacing="0" fontStrikeout="0" isExpression="0" forcedItalic="0" fontUnderline="0" fontSizeUnit="Point" fontSize="12" previewBkgrdColor="255,255,255,255" textColor="255,255,255,255" textOrientation="horizontal" fontWeight="50" multilineHeightUnit="Percentage" useSubstitutions="0" textOpacity="1" namedStyle="Regular" multilineHeight="1" fieldName="releve" forcedBold="0" fontWordSpacing="0" capitalization="0" blendMode="0">
+      <text-style fontFamily="Open Sans" fontUnderline="0" fontWordSpacing="0" previewBkgrdColor="255,255,255,255" textColor="255,255,255,255" textOpacity="1" textOrientation="horizontal" fieldName="releve" useSubstitutions="0" fontKerning="1" forcedBold="0" multilineHeightUnit="Percentage" isExpression="0" fontSize="12" fontWeight="50" forcedItalic="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" fontSizeUnit="Point" legendString="Aa" blendMode="0" capitalization="0" namedStyle="Regular" fontLetterSpacing="0" allowHtml="0" fontStrikeout="0">
         <families/>
-        <text-buffer bufferJoinStyle="128" bufferDraw="1" bufferOpacity="1" bufferColor="0,0,0,255" bufferSizeUnits="MM" bufferNoFill="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1"/>
-        <text-mask maskType="0" maskSize="0" maskSizeUnits="MM" maskOpacity="1" maskEnabled="0" maskedSymbolLayers="" maskJoinStyle="128" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
-        <background shapeSizeType="0" shapeSizeX="0" shapeRotation="0" shapeOpacity="1" shapeType="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeUnit="Point" shapeRadiiY="0" shapeBorderWidthUnit="Point" shapeFillColor="255,255,255,255" shapeRadiiX="0" shapeOffsetX="0" shapeBlendMode="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeRadiiUnit="Point" shapeBorderWidth="0" shapeRotationType="0" shapeOffsetUnit="Point" shapeSizeY="0" shapeBorderColor="128,128,128,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeOffsetY="0">
-          <symbol type="marker" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="markerSymbol" is_animated="0">
+        <text-buffer bufferBlendMode="0" bufferJoinStyle="128" bufferDraw="1" bufferSizeUnits="MM" bufferColor="0,0,0,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferSize="1" bufferNoFill="1"/>
+        <text-mask maskOpacity="1" maskSize="0" maskSizeUnits="MM" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskType="0" maskJoinStyle="128" maskEnabled="0" maskedSymbolLayers=""/>
+        <background shapeOffsetX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="Point" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeDraw="0" shapeOpacity="1" shapeRadiiX="0" shapeBlendMode="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRotation="0" shapeSizeUnit="Point" shapeJoinStyle="64" shapeSizeType="0" shapeRadiiY="0" shapeFillColor="255,255,255,255" shapeSizeX="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeRotationType="0" shapeSizeY="0" shapeSVGFile="" shapeBorderWidthUnit="Point" shapeOffsetY="0" shapeOffsetUnit="Point">
+          <symbol clip_to_extent="1" type="marker" force_rhr="0" alpha="1" frame_rate="10" name="markerSymbol" is_animated="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -254,7 +254,7 @@
                 <Option type="QString" value="collection" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleMarker" id="" enabled="1" locked="0" pass="0">
+            <layer class="SimpleMarker" pass="0" locked="0" id="" enabled="1">
               <Option type="Map">
                 <Option type="QString" value="0" name="angle"/>
                 <Option type="QString" value="square" name="cap_style"/>
@@ -285,7 +285,7 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="fillSymbol" is_animated="0">
+          <symbol clip_to_extent="1" type="fill" force_rhr="0" alpha="1" frame_rate="10" name="fillSymbol" is_animated="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -293,7 +293,7 @@
                 <Option type="QString" value="collection" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="" enabled="1" locked="0" pass="0">
+            <layer class="SimpleFill" pass="0" locked="0" id="" enabled="1">
               <Option type="Map">
                 <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
                 <Option type="QString" value="255,255,255,255" name="color"/>
@@ -317,7 +317,7 @@
             </layer>
           </symbol>
         </background>
-        <shadow shadowUnder="0" shadowOffsetAngle="135" shadowOpacity="0.69999999999999996" shadowOffsetDist="1" shadowRadius="1.5" shadowScale="100" shadowDraw="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255" shadowRadiusAlphaOnly="0" shadowBlendMode="6" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM"/>
+        <shadow shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOpacity="0.69999999999999996" shadowOffsetAngle="135" shadowRadiusUnit="MM" shadowOffsetUnit="MM" shadowUnder="0" shadowRadius="1.5" shadowRadiusAlphaOnly="0" shadowOffsetDist="1" shadowOffsetGlobal="1" shadowBlendMode="6" shadowColor="0,0,0,255" shadowDraw="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100"/>
         <dd_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -327,9 +327,9 @@
         </dd_properties>
         <substitutions/>
       </text-style>
-      <text-format reverseDirectionSymbol="0" plussign="0" useMaxLineLengthForAutoWrap="1" placeDirectionSymbol="0" wrapChar="" multilineAlign="3" decimals="3" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" autoWrapLength="0"/>
-      <placement allowDegraded="0" layerType="PointGeometry" dist="0" geometryGeneratorType="PointGeometry" maxCurvedCharAngleIn="25" offsetUnits="MM" xOffset="0" rotationUnit="AngleDegrees" distUnits="MM" polygonPlacementFlags="2" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorPercent="0.5" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" distMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceUnit="MM" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" rotationAngle="0" offsetType="1" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" priority="5" lineAnchorTextPoint="FollowPlacement" repeatDistance="0" yOffset="0" quadOffset="4" geometryGenerator="" preserveRotation="1" overlapHandling="PreventOverlap" repeatDistanceUnits="MM" fitInPolygonOnly="0" maxCurvedCharAngleOut="-25" centroidInside="0" centroidWhole="0" lineAnchorType="0" geometryGeneratorEnabled="0" placement="6" lineAnchorClipping="0" overrunDistance="0"/>
-      <rendering limitNumLabels="0" obstacleType="1" fontLimitPixelSize="0" zIndex="0" drawLabels="1" mergeLines="0" maxNumLabels="2000" obstacle="1" obstacleFactor="1" scaleVisibility="0" upsidedownLabels="0" unplacedVisibility="0" scaleMax="0" fontMaxPixelSize="10000" fontMinPixelSize="3" minFeatureSize="0" scaleMin="0" labelPerPart="0"/>
+      <text-format decimals="3" useMaxLineLengthForAutoWrap="1" reverseDirectionSymbol="0" plussign="0" placeDirectionSymbol="0" addDirectionSymbol="0" autoWrapLength="0" multilineAlign="3" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" wrapChar=""/>
+      <placement polygonPlacementFlags="2" overrunDistanceUnit="MM" lineAnchorType="0" repeatDistanceUnits="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistance="0" preserveRotation="1" dist="0" layerType="PointGeometry" overlapHandling="PreventOverlap" allowDegraded="0" geometryGenerator="" maxCurvedCharAngleOut="-25" geometryGeneratorType="PointGeometry" lineAnchorTextPoint="FollowPlacement" offsetUnits="MM" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="6" fitInPolygonOnly="0" rotationAngle="0" offsetType="1" yOffset="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" rotationUnit="AngleDegrees" quadOffset="4" centroidWhole="0" centroidInside="0" priority="5" xOffset="0" placementFlags="10" distMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorEnabled="0" overrunDistance="0" distUnits="MM" maxCurvedCharAngleIn="25" lineAnchorPercent="0.5" lineAnchorClipping="0"/>
+      <rendering scaleVisibility="0" zIndex="0" obstacle="1" unplacedVisibility="0" scaleMax="0" upsidedownLabels="0" obstacleFactor="1" fontMaxPixelSize="10000" labelPerPart="0" fontMinPixelSize="3" limitNumLabels="0" drawLabels="1" scaleMin="0" obstacleType="1" minFeatureSize="0" maxNumLabels="2000" mergeLines="0" fontLimitPixelSize="0"/>
       <dd_properties>
         <Option type="Map">
           <Option type="QString" value="" name="name"/>
@@ -349,7 +349,7 @@
           <Option type="bool" value="false" name="drawToAllParts"/>
           <Option type="QString" value="0" name="enabled"/>
           <Option type="QString" value="point_on_exterior" name="labelAnchorPoint"/>
-          <Option type="QString" value="&lt;symbol type=&quot;line&quot; frame_rate=&quot;10&quot; force_rhr=&quot;0&quot; alpha=&quot;1&quot; clip_to_extent=&quot;1&quot; name=&quot;symbol&quot; is_animated=&quot;0&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer class=&quot;SimpleLine&quot; id=&quot;{a9657d7e-c742-4edf-82dc-60067e8a5467}&quot; enabled=&quot;1&quot; locked=&quot;0&quot; pass=&quot;0&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255&quot; name=&quot;line_color&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+          <Option type="QString" value="&lt;symbol clip_to_extent=&quot;1&quot; type=&quot;line&quot; force_rhr=&quot;0&quot; alpha=&quot;1&quot; frame_rate=&quot;10&quot; name=&quot;symbol&quot; is_animated=&quot;0&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer class=&quot;SimpleLine&quot; pass=&quot;0&quot; locked=&quot;0&quot; id=&quot;{a9657d7e-c742-4edf-82dc-60067e8a5467}&quot; enabled=&quot;1&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255&quot; name=&quot;line_color&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
           <Option type="double" value="0" name="minLength"/>
           <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
           <Option type="QString" value="MM" name="minLengthUnit"/>
@@ -386,12 +386,12 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" lineSizeType="MM" minimumSize="0" penAlpha="255" penColor="#000000" spacing="5" sizeType="MM" diagramOrientation="Up" spacingUnit="MM" sizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" showAxis="1" penWidth="0" minScaleDenominator="0" backgroundColor="#ffffff" scaleBasedVisibility="0" labelPlacementMethod="XHeight" scaleDependency="Area" barWidth="5" width="15" direction="0" opacity="1" backgroundAlpha="255" height="15" enabled="0" rotationOffset="270">
-      <fontProperties italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
-      <attribute colorOpacity="1" field="" color="#000000" label=""/>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory backgroundAlpha="255" lineSizeType="MM" spacingUnitScale="3x:0,0,0,0,0,0" penAlpha="255" scaleBasedVisibility="0" labelPlacementMethod="XHeight" height="15" scaleDependency="Area" minimumSize="0" showAxis="1" width="15" backgroundColor="#ffffff" minScaleDenominator="0" sizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" enabled="0" penWidth="0" spacing="5" diagramOrientation="Up" direction="0" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" opacity="1" rotationOffset="270" sizeType="MM" spacingUnit="MM">
+      <fontProperties italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
+      <attribute field="" colorOpacity="1" color="#000000" label=""/>
       <axisSymbol>
-        <symbol type="line" frame_rate="10" force_rhr="0" alpha="1" clip_to_extent="1" name="" is_animated="0">
+        <symbol clip_to_extent="1" type="line" force_rhr="0" alpha="1" frame_rate="10" name="" is_animated="0">
           <data_defined_properties>
             <Option type="Map">
               <Option type="QString" value="" name="name"/>
@@ -399,7 +399,7 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <layer class="SimpleLine" id="{a1604d91-8731-4c2d-96c6-8d7b8bfe3b9d}" enabled="1" locked="0" pass="0">
+          <layer class="SimpleLine" pass="0" locked="0" id="{a1604d91-8731-4c2d-96c6-8d7b8bfe3b9d}" enabled="1">
             <Option type="Map">
               <Option type="QString" value="0" name="align_dash_pattern"/>
               <Option type="QString" value="square" name="capstyle"/>
@@ -441,7 +441,7 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings dist="0" zIndex="0" placement="0" priority="0" obstacle="0" linePlacementFlags="18" showAll="1">
+  <DiagramLayerSettings zIndex="0" linePlacementFlags="18" dist="0" priority="0" showAll="1" obstacle="0" placement="0">
     <properties>
       <Option type="Map">
         <Option type="QString" value="" name="name"/>
@@ -450,14 +450,14 @@
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
-  <legend type="default-vector" showLabelLegend="0"/>
+  <legend showLabelLegend="0" type="default-vector"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field name="fid" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="fid">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -467,7 +467,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="hablabel" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="hablabel">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -477,7 +477,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="couleur" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="couleur">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
@@ -499,7 +499,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="eunis1" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="eunis1">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -520,7 +520,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="eunis2" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="eunis2">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -541,7 +541,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="eunis2022" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="eunis2022">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -562,7 +562,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="cbbiotope" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="cbbiotope">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -583,7 +583,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="hic" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="hic">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -604,7 +604,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="pvf2" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="pvf2">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -625,7 +625,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="habesp" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="habesp">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -635,7 +635,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="etat_conse" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="etat_conse">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
@@ -660,7 +660,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="zh" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="zh">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -670,7 +670,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="fonction" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="fonction">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -680,7 +680,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="tauxeee" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="tauxeee">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -694,7 +694,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="sufacem2" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="sufacem2">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -704,7 +704,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="obs" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="obs">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -714,7 +714,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="date" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="date">
       <editWidget type="DateTime">
         <config>
           <Option type="Map">
@@ -727,7 +727,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="enjeu_ecol" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="enjeu_ecol">
       <editWidget type="ValueMap">
         <config>
           <Option type="Map">
@@ -758,7 +758,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="notes" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="notes">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -768,7 +768,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="photo1" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="photo1">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
@@ -791,7 +791,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="photo2" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="photo2">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
@@ -814,7 +814,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="photo3" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="photo3">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
@@ -837,7 +837,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="photo4" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="photo4">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
@@ -860,7 +860,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="photo5" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="photo5">
       <editWidget type="ExternalResource">
         <config>
           <Option type="Map">
@@ -883,7 +883,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="releve" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="releve">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -893,7 +893,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="pente" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="pente">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -903,7 +903,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="altitude" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="altitude">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -917,7 +917,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="exposition" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="exposition">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -927,7 +927,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="dynamique" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="dynamique">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -937,7 +937,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="gestion" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="gestion">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -947,7 +947,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="x" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="x">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -957,7 +957,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="y" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="y">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
@@ -967,7 +967,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="stratebryo" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="stratebryo">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -981,7 +981,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="strateherb" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="strateherb">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -995,7 +995,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="stratearbu" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="stratearbu">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -1009,7 +1009,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="stratearbo" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="stratearbo">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -1023,7 +1023,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="hautbryo" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="hautbryo">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -1037,7 +1037,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="hautherb" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="hautherb">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -1051,7 +1051,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="hautarbu" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="hautarbu">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -1065,7 +1065,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="hautarbo" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="hautarbo">
       <editWidget type="Range">
         <config>
           <Option type="Map">
@@ -1079,48 +1079,74 @@
         </config>
       </editWidget>
     </field>
+    <field configurationFlags="NoFlag" name="stade">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" value="Optimal" name="Optimal"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" value="Intermédiaire" name="Intermédiaire"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" value="Initial" name="Initial"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" value="Dégradé" name="Dégradé"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" value="Mosaïque" name="Mosaïque"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
   </fieldConfiguration>
   <aliases>
-    <alias field="fid" index="0" name=""/>
-    <alias field="hablabel" index="1" name="Nom de l'habitat"/>
-    <alias field="couleur" index="2" name="Couleur du point"/>
-    <alias field="eunis1" index="3" name="EUNIS de base"/>
-    <alias field="eunis2" index="4" name="EUNIS hybride"/>
-    <alias field="eunis2022" index="5" name="EUNIS 2022"/>
-    <alias field="cbbiotope" index="6" name="Code Corine Biotope"/>
-    <alias field="hic" index="7" name="Habitats natura 2000 (HIC &amp; EUR28)"/>
-    <alias field="pvf2" index="8" name="Prodrome de végétation 2"/>
-    <alias field="habesp" index="9" name="Habitat d'espèce"/>
-    <alias field="etat_conse" index="10" name="Etat de conservation"/>
-    <alias field="zh" index="11" name="Zone humide"/>
-    <alias field="fonction" index="12" name="Fonction écologique"/>
-    <alias field="tauxeee" index="13" name="Taux d'invasion"/>
-    <alias field="sufacem2" index="14" name="Surface (m²)"/>
-    <alias field="obs" index="15" name="Observateur"/>
-    <alias field="date" index="16" name="Date"/>
-    <alias field="enjeu_ecol" index="17" name="Enjeu écologique"/>
-    <alias field="notes" index="18" name="Notes"/>
-    <alias field="photo1" index="19" name="Photo 1"/>
-    <alias field="photo2" index="20" name="Photo 2"/>
-    <alias field="photo3" index="21" name="Photo 3"/>
-    <alias field="photo4" index="22" name="Photo 4"/>
-    <alias field="photo5" index="23" name="Photo 5"/>
-    <alias field="releve" index="24" name="Relevé"/>
-    <alias field="pente" index="25" name="Pente"/>
-    <alias field="altitude" index="26" name="Altitude"/>
-    <alias field="exposition" index="27" name="Exposition"/>
-    <alias field="dynamique" index="28" name="Dynamique"/>
-    <alias field="gestion" index="29" name="Gestion"/>
-    <alias field="x" index="30" name="X"/>
-    <alias field="y" index="31" name="Y"/>
-    <alias field="stratebryo" index="32" name="Recouvrement de la strate bryolichénique (%)"/>
-    <alias field="strateherb" index="33" name="Recouvrement de la strate herbacées (%)"/>
-    <alias field="stratearbu" index="34" name="Recouvrement de la strate arbustive (%)"/>
-    <alias field="stratearbo" index="35" name="Recouvrement de la strate arborescente (%)"/>
-    <alias field="hautbryo" index="36" name="Hauteur de la strate bryolichénique (cm)"/>
-    <alias field="hautherb" index="37" name="Hauteur de la strate herbacée (cm)"/>
-    <alias field="hautarbu" index="38" name="Hauteur de la strate arbustive (cm)"/>
-    <alias field="hautarbo" index="39" name="Hauteur de la strate arborescente"/>
+    <alias field="fid" name="" index="0"/>
+    <alias field="hablabel" name="Nom de l'habitat" index="1"/>
+    <alias field="couleur" name="Couleur du point" index="2"/>
+    <alias field="eunis1" name="EUNIS de base" index="3"/>
+    <alias field="eunis2" name="EUNIS hybride" index="4"/>
+    <alias field="eunis2022" name="EUNIS 2022" index="5"/>
+    <alias field="cbbiotope" name="Code Corine Biotope" index="6"/>
+    <alias field="hic" name="Habitats natura 2000 (HIC &amp; EUR28)" index="7"/>
+    <alias field="pvf2" name="Prodrome de végétation 2" index="8"/>
+    <alias field="habesp" name="Habitat d'espèce" index="9"/>
+    <alias field="etat_conse" name="Etat de conservation" index="10"/>
+    <alias field="zh" name="Zone humide" index="11"/>
+    <alias field="fonction" name="Fonction écologique" index="12"/>
+    <alias field="tauxeee" name="Taux d'invasion" index="13"/>
+    <alias field="sufacem2" name="Surface (m²)" index="14"/>
+    <alias field="obs" name="Observateur" index="15"/>
+    <alias field="date" name="Date" index="16"/>
+    <alias field="enjeu_ecol" name="Enjeu écologique" index="17"/>
+    <alias field="notes" name="Notes" index="18"/>
+    <alias field="photo1" name="Photo 1" index="19"/>
+    <alias field="photo2" name="Photo 2" index="20"/>
+    <alias field="photo3" name="Photo 3" index="21"/>
+    <alias field="photo4" name="Photo 4" index="22"/>
+    <alias field="photo5" name="Photo 5" index="23"/>
+    <alias field="releve" name="Relevé" index="24"/>
+    <alias field="pente" name="Pente" index="25"/>
+    <alias field="altitude" name="Altitude" index="26"/>
+    <alias field="exposition" name="Exposition" index="27"/>
+    <alias field="dynamique" name="Dynamique" index="28"/>
+    <alias field="gestion" name="Gestion" index="29"/>
+    <alias field="x" name="X" index="30"/>
+    <alias field="y" name="Y" index="31"/>
+    <alias field="stratebryo" name="Recouvrement de la strate bryolichénique (%)" index="32"/>
+    <alias field="strateherb" name="Recouvrement de la strate herbacées (%)" index="33"/>
+    <alias field="stratearbu" name="Recouvrement de la strate arbustive (%)" index="34"/>
+    <alias field="stratearbo" name="Recouvrement de la strate arborescente (%)" index="35"/>
+    <alias field="hautbryo" name="Hauteur de la strate bryolichénique (cm)" index="36"/>
+    <alias field="hautherb" name="Hauteur de la strate herbacée (cm)" index="37"/>
+    <alias field="hautarbu" name="Hauteur de la strate arbustive (cm)" index="38"/>
+    <alias field="hautarbo" name="Hauteur de la strate arborescente" index="39"/>
+    <alias field="stade" name="Stade de végétation" index="40"/>
   </aliases>
   <splitPolicies>
     <policy field="fid" policy="DefaultValue"/>
@@ -1137,7 +1163,7 @@
     <policy field="zh" policy="Duplicate"/>
     <policy field="fonction" policy="DefaultValue"/>
     <policy field="tauxeee" policy="Duplicate"/>
-    <policy field="sufacem2" policy="Duplicate"/>
+    <policy field="sufacem2" policy="DefaultValue"/>
     <policy field="obs" policy="Duplicate"/>
     <policy field="date" policy="Duplicate"/>
     <policy field="enjeu_ecol" policy="DefaultValue"/>
@@ -1163,90 +1189,93 @@
     <policy field="hautherb" policy="Duplicate"/>
     <policy field="hautarbu" policy="Duplicate"/>
     <policy field="hautarbo" policy="DefaultValue"/>
+    <policy field="stade" policy="DefaultValue"/>
   </splitPolicies>
   <defaults>
-    <default expression="IF(maximum(&quot;FID&quot;) is NULL,0,IF (&quot;FID&quot; is NULL,maximum(&quot;FID&quot;) + 1, &quot;FID&quot;))" field="fid" applyOnUpdate="1"/>
-    <default expression="" field="hablabel" applyOnUpdate="0"/>
-    <default expression="'Bleu'" field="couleur" applyOnUpdate="0"/>
-    <default expression="" field="eunis1" applyOnUpdate="0"/>
-    <default expression="" field="eunis2" applyOnUpdate="0"/>
-    <default expression="" field="eunis2022" applyOnUpdate="0"/>
-    <default expression="" field="cbbiotope" applyOnUpdate="0"/>
-    <default expression="" field="hic" applyOnUpdate="0"/>
-    <default expression="" field="pvf2" applyOnUpdate="0"/>
-    <default expression="" field="habesp" applyOnUpdate="0"/>
-    <default expression="" field="etat_conse" applyOnUpdate="0"/>
-    <default expression="" field="zh" applyOnUpdate="0"/>
-    <default expression="" field="fonction" applyOnUpdate="0"/>
-    <default expression="" field="tauxeee" applyOnUpdate="0"/>
-    <default expression="" field="sufacem2" applyOnUpdate="0"/>
-    <default expression="" field="obs" applyOnUpdate="0"/>
-    <default expression="now()" field="date" applyOnUpdate="0"/>
-    <default expression="" field="enjeu_ecol" applyOnUpdate="0"/>
-    <default expression="" field="notes" applyOnUpdate="0"/>
-    <default expression="" field="photo1" applyOnUpdate="0"/>
-    <default expression="" field="photo2" applyOnUpdate="0"/>
-    <default expression="" field="photo3" applyOnUpdate="0"/>
-    <default expression="" field="photo4" applyOnUpdate="0"/>
-    <default expression="" field="photo5" applyOnUpdate="0"/>
-    <default expression="" field="releve" applyOnUpdate="0"/>
-    <default expression="" field="pente" applyOnUpdate="0"/>
-    <default expression="" field="altitude" applyOnUpdate="0"/>
-    <default expression="" field="exposition" applyOnUpdate="0"/>
-    <default expression="" field="dynamique" applyOnUpdate="0"/>
-    <default expression="" field="gestion" applyOnUpdate="0"/>
-    <default expression="$x" field="x" applyOnUpdate="1"/>
-    <default expression="$y" field="y" applyOnUpdate="1"/>
-    <default expression="" field="stratebryo" applyOnUpdate="0"/>
-    <default expression="" field="strateherb" applyOnUpdate="0"/>
-    <default expression="" field="stratearbu" applyOnUpdate="0"/>
-    <default expression="" field="stratearbo" applyOnUpdate="0"/>
-    <default expression="" field="hautbryo" applyOnUpdate="0"/>
-    <default expression="" field="hautherb" applyOnUpdate="0"/>
-    <default expression="" field="hautarbu" applyOnUpdate="0"/>
-    <default expression="" field="hautarbo" applyOnUpdate="0"/>
+    <default field="fid" expression="IF(maximum(&quot;FID&quot;) is NULL,0,IF (&quot;FID&quot; is NULL,maximum(&quot;FID&quot;) + 1, &quot;FID&quot;))" applyOnUpdate="1"/>
+    <default field="hablabel" expression="" applyOnUpdate="0"/>
+    <default field="couleur" expression="'Bleu'" applyOnUpdate="0"/>
+    <default field="eunis1" expression="" applyOnUpdate="0"/>
+    <default field="eunis2" expression="" applyOnUpdate="0"/>
+    <default field="eunis2022" expression="" applyOnUpdate="0"/>
+    <default field="cbbiotope" expression="" applyOnUpdate="0"/>
+    <default field="hic" expression="" applyOnUpdate="0"/>
+    <default field="pvf2" expression="" applyOnUpdate="0"/>
+    <default field="habesp" expression="" applyOnUpdate="0"/>
+    <default field="etat_conse" expression="" applyOnUpdate="0"/>
+    <default field="zh" expression="" applyOnUpdate="0"/>
+    <default field="fonction" expression="" applyOnUpdate="0"/>
+    <default field="tauxeee" expression="" applyOnUpdate="0"/>
+    <default field="sufacem2" expression="" applyOnUpdate="0"/>
+    <default field="obs" expression="" applyOnUpdate="0"/>
+    <default field="date" expression="now()" applyOnUpdate="0"/>
+    <default field="enjeu_ecol" expression="" applyOnUpdate="0"/>
+    <default field="notes" expression="" applyOnUpdate="0"/>
+    <default field="photo1" expression="" applyOnUpdate="0"/>
+    <default field="photo2" expression="" applyOnUpdate="0"/>
+    <default field="photo3" expression="" applyOnUpdate="0"/>
+    <default field="photo4" expression="" applyOnUpdate="0"/>
+    <default field="photo5" expression="" applyOnUpdate="0"/>
+    <default field="releve" expression="" applyOnUpdate="0"/>
+    <default field="pente" expression="" applyOnUpdate="0"/>
+    <default field="altitude" expression="" applyOnUpdate="0"/>
+    <default field="exposition" expression="" applyOnUpdate="0"/>
+    <default field="dynamique" expression="" applyOnUpdate="0"/>
+    <default field="gestion" expression="" applyOnUpdate="0"/>
+    <default field="x" expression="$x" applyOnUpdate="1"/>
+    <default field="y" expression="$y" applyOnUpdate="1"/>
+    <default field="stratebryo" expression="" applyOnUpdate="0"/>
+    <default field="strateherb" expression="" applyOnUpdate="0"/>
+    <default field="stratearbu" expression="" applyOnUpdate="0"/>
+    <default field="stratearbo" expression="" applyOnUpdate="0"/>
+    <default field="hautbryo" expression="" applyOnUpdate="0"/>
+    <default field="hautherb" expression="" applyOnUpdate="0"/>
+    <default field="hautarbu" expression="" applyOnUpdate="0"/>
+    <default field="hautarbo" expression="" applyOnUpdate="0"/>
+    <default field="stade" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint field="fid" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="hablabel" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="couleur" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="eunis1" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="eunis2" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="eunis2022" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="cbbiotope" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="hic" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="pvf2" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="habesp" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="etat_conse" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="zh" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="fonction" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="tauxeee" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="sufacem2" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="obs" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="date" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="enjeu_ecol" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="notes" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="photo1" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="photo2" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="photo3" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="photo4" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="photo5" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="releve" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="pente" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="altitude" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="exposition" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="dynamique" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="gestion" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="x" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="y" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="stratebryo" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="strateherb" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="stratearbu" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="stratearbo" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="hautbryo" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="hautherb" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="hautarbu" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint field="hautarbo" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="fid" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="hablabel" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="couleur" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="eunis1" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="eunis2" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="eunis2022" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="cbbiotope" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="hic" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="pvf2" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="habesp" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="etat_conse" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="zh" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="fonction" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="tauxeee" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="sufacem2" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="obs" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="date" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="enjeu_ecol" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="notes" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="photo1" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="photo2" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="photo3" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="photo4" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="photo5" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="releve" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="pente" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="altitude" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="exposition" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="dynamique" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="gestion" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="x" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="y" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="stratebryo" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="strateherb" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="stratearbu" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="stratearbo" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="hautbryo" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="hautherb" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="hautarbu" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="hautarbo" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" field="stade" notnull_strength="0" exp_strength="0" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint field="fid" exp="" desc=""/>
@@ -1289,6 +1318,7 @@
     <constraint field="hautherb" exp="" desc=""/>
     <constraint field="hautarbu" exp="" desc=""/>
     <constraint field="hautarbo" exp="" desc=""/>
+    <constraint field="stade" exp="" desc=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
@@ -1296,47 +1326,48 @@
   </attributeactions>
   <attributetableconfig sortExpression="&quot;hablabel&quot;" actionWidgetStyle="dropDown" sortOrder="0">
     <columns>
-      <column type="field" width="-1" hidden="0" name="fid"/>
-      <column type="field" width="-1" hidden="0" name="hablabel"/>
-      <column type="field" width="-1" hidden="0" name="eunis1"/>
-      <column type="field" width="-1" hidden="0" name="eunis2"/>
-      <column type="field" width="-1" hidden="0" name="eunis2022"/>
-      <column type="field" width="-1" hidden="0" name="cbbiotope"/>
-      <column type="field" width="-1" hidden="0" name="hic"/>
-      <column type="field" width="-1" hidden="0" name="pvf2"/>
-      <column type="field" width="-1" hidden="0" name="habesp"/>
-      <column type="field" width="-1" hidden="0" name="zh"/>
-      <column type="field" width="-1" hidden="0" name="fonction"/>
-      <column type="field" width="-1" hidden="0" name="tauxeee"/>
-      <column type="field" width="-1" hidden="0" name="sufacem2"/>
-      <column type="field" width="-1" hidden="0" name="obs"/>
-      <column type="field" width="-1" hidden="0" name="date"/>
-      <column type="field" width="-1" hidden="0" name="notes"/>
-      <column type="field" width="-1" hidden="0" name="photo1"/>
-      <column type="field" width="-1" hidden="0" name="photo2"/>
-      <column type="field" width="-1" hidden="0" name="photo3"/>
-      <column type="field" width="-1" hidden="0" name="photo4"/>
-      <column type="field" width="-1" hidden="0" name="photo5"/>
-      <column type="field" width="-1" hidden="0" name="releve"/>
-      <column type="field" width="-1" hidden="0" name="pente"/>
-      <column type="field" width="-1" hidden="0" name="altitude"/>
-      <column type="field" width="-1" hidden="0" name="exposition"/>
-      <column type="field" width="-1" hidden="0" name="dynamique"/>
-      <column type="field" width="-1" hidden="0" name="x"/>
-      <column type="field" width="-1" hidden="0" name="y"/>
-      <column type="field" width="-1" hidden="0" name="stratebryo"/>
-      <column type="field" width="-1" hidden="0" name="strateherb"/>
-      <column type="field" width="-1" hidden="0" name="stratearbu"/>
-      <column type="field" width="-1" hidden="0" name="stratearbo"/>
-      <column type="field" width="-1" hidden="0" name="hautbryo"/>
-      <column type="field" width="-1" hidden="0" name="hautherb"/>
-      <column type="field" width="-1" hidden="0" name="hautarbu"/>
-      <column type="field" width="-1" hidden="0" name="hautarbo"/>
-      <column type="field" width="-1" hidden="0" name="gestion"/>
-      <column type="field" width="-1" hidden="0" name="etat_conse"/>
-      <column type="field" width="-1" hidden="0" name="enjeu_ecol"/>
-      <column type="field" width="-1" hidden="0" name="couleur"/>
-      <column type="actions" width="-1" hidden="1"/>
+      <column hidden="0" width="-1" type="field" name="fid"/>
+      <column hidden="0" width="-1" type="field" name="hablabel"/>
+      <column hidden="0" width="-1" type="field" name="eunis1"/>
+      <column hidden="0" width="-1" type="field" name="eunis2"/>
+      <column hidden="0" width="-1" type="field" name="eunis2022"/>
+      <column hidden="0" width="-1" type="field" name="cbbiotope"/>
+      <column hidden="0" width="-1" type="field" name="hic"/>
+      <column hidden="0" width="-1" type="field" name="pvf2"/>
+      <column hidden="0" width="-1" type="field" name="habesp"/>
+      <column hidden="0" width="-1" type="field" name="zh"/>
+      <column hidden="0" width="-1" type="field" name="fonction"/>
+      <column hidden="0" width="-1" type="field" name="tauxeee"/>
+      <column hidden="0" width="-1" type="field" name="sufacem2"/>
+      <column hidden="0" width="-1" type="field" name="obs"/>
+      <column hidden="0" width="-1" type="field" name="date"/>
+      <column hidden="0" width="-1" type="field" name="notes"/>
+      <column hidden="0" width="-1" type="field" name="photo1"/>
+      <column hidden="0" width="-1" type="field" name="photo2"/>
+      <column hidden="0" width="-1" type="field" name="photo3"/>
+      <column hidden="0" width="-1" type="field" name="photo4"/>
+      <column hidden="0" width="-1" type="field" name="photo5"/>
+      <column hidden="0" width="-1" type="field" name="releve"/>
+      <column hidden="0" width="-1" type="field" name="pente"/>
+      <column hidden="0" width="-1" type="field" name="altitude"/>
+      <column hidden="0" width="-1" type="field" name="exposition"/>
+      <column hidden="0" width="-1" type="field" name="dynamique"/>
+      <column hidden="0" width="-1" type="field" name="x"/>
+      <column hidden="0" width="-1" type="field" name="y"/>
+      <column hidden="0" width="-1" type="field" name="stratebryo"/>
+      <column hidden="0" width="-1" type="field" name="strateherb"/>
+      <column hidden="0" width="-1" type="field" name="stratearbu"/>
+      <column hidden="0" width="-1" type="field" name="stratearbo"/>
+      <column hidden="0" width="-1" type="field" name="hautbryo"/>
+      <column hidden="0" width="-1" type="field" name="hautherb"/>
+      <column hidden="0" width="-1" type="field" name="hautarbu"/>
+      <column hidden="0" width="-1" type="field" name="hautarbo"/>
+      <column hidden="0" width="-1" type="field" name="gestion"/>
+      <column hidden="0" width="-1" type="field" name="etat_conse"/>
+      <column hidden="0" width="-1" type="field" name="enjeu_ecol"/>
+      <column hidden="0" width="-1" type="field" name="couleur"/>
+      <column hidden="0" width="-1" type="field" name="stade"/>
+      <column hidden="1" width="-1" type="actions"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -1368,341 +1399,348 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-      <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+    <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+      <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
     </labelStyle>
-    <attributeEditorContainer type="Tab" verticalStretch="0" collapsedExpressionEnabled="0" groupBox="0" visibilityExpressionEnabled="0" showLabel="1" visibilityExpression="" horizontalStretch="0" columnCount="1" collapsed="0" collapsedExpression="" name="Habitat">
-      <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+    <attributeEditorContainer visibilityExpression="" showLabel="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" verticalStretch="0" columnCount="1" collapsed="0" groupBox="0" collapsedExpression="" horizontalStretch="0" type="Tab" name="Habitat">
+      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+        <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="1" horizontalStretch="0" name="hablabel">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="hablabel" index="1">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="2" horizontalStretch="0" name="couleur">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="couleur" index="2">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="3" horizontalStretch="0" name="eunis1">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="eunis1" index="3">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="4" horizontalStretch="0" name="eunis2">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="eunis2" index="4">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="5" horizontalStretch="0" name="eunis2022">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="eunis2022" index="5">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="6" horizontalStretch="0" name="cbbiotope">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="cbbiotope" index="6">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="7" horizontalStretch="0" name="hic">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="hic" index="7">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="8" horizontalStretch="0" name="pvf2">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="pvf2" index="8">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer type="Tab" verticalStretch="0" collapsedExpressionEnabled="0" groupBox="0" visibilityExpressionEnabled="0" showLabel="1" visibilityExpression="" horizontalStretch="0" columnCount="1" collapsed="0" collapsedExpression="" name="Photos">
-      <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+    <attributeEditorContainer visibilityExpression="" showLabel="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" verticalStretch="0" columnCount="1" collapsed="0" groupBox="0" collapsedExpression="" horizontalStretch="0" type="Tab" name="Photos">
+      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+        <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="19" horizontalStretch="0" name="photo1">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="photo1" index="19">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="20" horizontalStretch="0" name="photo2">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="photo2" index="20">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="21" horizontalStretch="0" name="photo3">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="photo3" index="21">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="22" horizontalStretch="0" name="photo4">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="photo4" index="22">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="23" horizontalStretch="0" name="photo5">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="photo5" index="23">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer type="Tab" verticalStretch="0" collapsedExpressionEnabled="0" groupBox="0" visibilityExpressionEnabled="0" showLabel="1" visibilityExpression="" horizontalStretch="0" columnCount="1" collapsed="0" collapsedExpression="" name="Relevé phytosociologique">
-      <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+    <attributeEditorContainer visibilityExpression="" showLabel="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" verticalStretch="0" columnCount="1" collapsed="0" groupBox="0" collapsedExpression="" horizontalStretch="0" type="Tab" name="Relevé phytosociologique">
+      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+        <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="24" horizontalStretch="0" name="releve">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="releve" index="24">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="32" horizontalStretch="0" name="stratebryo">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="stade" index="40">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="33" horizontalStretch="0" name="strateherb">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="stratebryo" index="32">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="34" horizontalStretch="0" name="stratearbu">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="strateherb" index="33">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="35" horizontalStretch="0" name="stratearbo">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="stratearbu" index="34">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="36" horizontalStretch="0" name="hautbryo">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="stratearbo" index="35">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="37" horizontalStretch="0" name="hautherb">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="hautbryo" index="36">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="38" horizontalStretch="0" name="hautarbu">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="hautherb" index="37">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="39" horizontalStretch="0" name="hautarbo">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="hautarbu" index="38">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="hautarbo" index="39">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer type="Tab" verticalStretch="0" collapsedExpressionEnabled="0" groupBox="0" visibilityExpressionEnabled="0" showLabel="1" visibilityExpression="" horizontalStretch="0" columnCount="1" collapsed="0" collapsedExpression="" name="Informations générales">
-      <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+    <attributeEditorContainer visibilityExpression="" showLabel="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" verticalStretch="0" columnCount="1" collapsed="0" groupBox="0" collapsedExpression="" horizontalStretch="0" type="Tab" name="Informations générales">
+      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+        <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="10" horizontalStretch="0" name="etat_conse">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="etat_conse" index="10">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="17" horizontalStretch="0" name="enjeu_ecol">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="enjeu_ecol" index="17">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="12" horizontalStretch="0" name="fonction">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="fonction" index="12">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="11" horizontalStretch="0" name="zh">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="zh" index="11">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="13" horizontalStretch="0" name="tauxeee">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="tauxeee" index="13">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="9" horizontalStretch="0" name="habesp">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="habesp" index="9">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="25" horizontalStretch="0" name="pente">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="pente" index="25">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="26" horizontalStretch="0" name="altitude">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="altitude" index="26">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="27" horizontalStretch="0" name="exposition">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="exposition" index="27">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="28" horizontalStretch="0" name="dynamique">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="dynamique" index="28">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="29" horizontalStretch="0" name="gestion">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="gestion" index="29">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="18" horizontalStretch="0" name="notes">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="notes" index="18">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="14" horizontalStretch="0" name="sufacem2">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="sufacem2" index="14">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="16" horizontalStretch="0" name="date">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="date" index="16">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="15" horizontalStretch="0" name="obs">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="obs" index="15">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="0" horizontalStretch="0" name="fid">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="fid" index="0">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="30" horizontalStretch="0" name="x">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="x" index="30">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField verticalStretch="0" showLabel="1" index="31" horizontalStretch="0" name="y">
-        <labelStyle labelColor="0,0,0,255" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" underline="0" bold="0" strikethrough="0" style=""/>
+      <attributeEditorField showLabel="1" verticalStretch="0" horizontalStretch="0" name="y" index="31">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+          <labelFont italic="0" strikethrough="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
   </attributeEditorForm>
   <editable>
-    <field editable="1" name="altitude"/>
-    <field editable="1" name="catminat"/>
-    <field editable="1" name="cbbiotope"/>
-    <field editable="1" name="couleur"/>
-    <field editable="1" name="date"/>
-    <field editable="1" name="dynamique"/>
-    <field editable="1" name="enjeu_ecol"/>
-    <field editable="1" name="enjeu_ecologique"/>
-    <field editable="1" name="etat_conse"/>
-    <field editable="1" name="etat_conservation"/>
-    <field editable="1" name="eunis1"/>
-    <field editable="1" name="eunis2"/>
-    <field editable="1" name="eunis2022"/>
-    <field editable="1" name="exposition"/>
-    <field editable="1" name="fid"/>
-    <field editable="1" name="fonction"/>
-    <field editable="1" name="gesiton"/>
-    <field editable="1" name="gestion"/>
-    <field editable="1" name="habesp"/>
-    <field editable="1" name="hablabel"/>
-    <field editable="1" name="hautarbo"/>
-    <field editable="1" name="hautarbu"/>
-    <field editable="1" name="hautbryo"/>
-    <field editable="1" name="hautherb"/>
-    <field editable="1" name="hic"/>
-    <field editable="1" name="microhab"/>
-    <field editable="1" name="microhabar"/>
-    <field editable="1" name="microhabarbre"/>
-    <field editable="1" name="notes"/>
-    <field editable="1" name="obs"/>
-    <field editable="1" name="pente"/>
-    <field editable="1" name="photo1"/>
-    <field editable="1" name="photo2"/>
-    <field editable="1" name="photo3"/>
-    <field editable="1" name="photo4"/>
-    <field editable="1" name="photo5"/>
-    <field editable="1" name="pvf2"/>
-    <field editable="1" name="recouvrsyn"/>
-    <field editable="1" name="recouvrsynusie"/>
-    <field editable="1" name="releve"/>
-    <field editable="1" name="relevesynu"/>
-    <field editable="1" name="relevesynusie"/>
-    <field editable="1" name="stratearbo"/>
-    <field editable="1" name="stratearbu"/>
-    <field editable="1" name="stratebryo"/>
-    <field editable="1" name="strateherb"/>
-    <field editable="1" name="stratesynu"/>
-    <field editable="1" name="stratesynusie"/>
-    <field editable="1" name="sufacem2"/>
-    <field editable="1" name="tauxeee"/>
-    <field editable="1" name="vu"/>
-    <field editable="1" name="x"/>
-    <field editable="1" name="y"/>
-    <field editable="1" name="zh"/>
+    <field name="altitude" editable="1"/>
+    <field name="catminat" editable="1"/>
+    <field name="cbbiotope" editable="1"/>
+    <field name="couleur" editable="1"/>
+    <field name="date" editable="1"/>
+    <field name="dynamique" editable="1"/>
+    <field name="enjeu_ecol" editable="1"/>
+    <field name="enjeu_ecologique" editable="1"/>
+    <field name="etat_conse" editable="1"/>
+    <field name="etat_conservation" editable="1"/>
+    <field name="eunis1" editable="1"/>
+    <field name="eunis2" editable="1"/>
+    <field name="eunis2022" editable="1"/>
+    <field name="exposition" editable="1"/>
+    <field name="fid" editable="1"/>
+    <field name="fonction" editable="1"/>
+    <field name="gesiton" editable="1"/>
+    <field name="gestion" editable="1"/>
+    <field name="habesp" editable="1"/>
+    <field name="hablabel" editable="1"/>
+    <field name="hautarbo" editable="1"/>
+    <field name="hautarbu" editable="1"/>
+    <field name="hautbryo" editable="1"/>
+    <field name="hautherb" editable="1"/>
+    <field name="hic" editable="1"/>
+    <field name="microhab" editable="1"/>
+    <field name="microhabar" editable="1"/>
+    <field name="microhabarbre" editable="1"/>
+    <field name="notes" editable="1"/>
+    <field name="obs" editable="1"/>
+    <field name="pente" editable="1"/>
+    <field name="photo1" editable="1"/>
+    <field name="photo2" editable="1"/>
+    <field name="photo3" editable="1"/>
+    <field name="photo4" editable="1"/>
+    <field name="photo5" editable="1"/>
+    <field name="pvf2" editable="1"/>
+    <field name="recouvrsyn" editable="1"/>
+    <field name="recouvrsynusie" editable="1"/>
+    <field name="releve" editable="1"/>
+    <field name="relevesynu" editable="1"/>
+    <field name="relevesynusie" editable="1"/>
+    <field name="stade" editable="1"/>
+    <field name="stratearbo" editable="1"/>
+    <field name="stratearbu" editable="1"/>
+    <field name="stratebryo" editable="1"/>
+    <field name="strateherb" editable="1"/>
+    <field name="stratesynu" editable="1"/>
+    <field name="stratesynusie" editable="1"/>
+    <field name="sufacem2" editable="1"/>
+    <field name="tauxeee" editable="1"/>
+    <field name="vu" editable="1"/>
+    <field name="x" editable="1"/>
+    <field name="y" editable="1"/>
+    <field name="zh" editable="1"/>
   </editable>
   <labelOnTop>
-    <field name="altitude" labelOnTop="0"/>
-    <field name="catminat" labelOnTop="0"/>
-    <field name="cbbiotope" labelOnTop="0"/>
-    <field name="couleur" labelOnTop="0"/>
-    <field name="date" labelOnTop="0"/>
-    <field name="dynamique" labelOnTop="0"/>
-    <field name="enjeu_ecol" labelOnTop="0"/>
-    <field name="enjeu_ecologique" labelOnTop="0"/>
-    <field name="etat_conse" labelOnTop="0"/>
-    <field name="etat_conservation" labelOnTop="0"/>
-    <field name="eunis1" labelOnTop="0"/>
-    <field name="eunis2" labelOnTop="0"/>
-    <field name="eunis2022" labelOnTop="0"/>
-    <field name="exposition" labelOnTop="0"/>
-    <field name="fid" labelOnTop="0"/>
-    <field name="fonction" labelOnTop="0"/>
-    <field name="gesiton" labelOnTop="0"/>
-    <field name="gestion" labelOnTop="0"/>
-    <field name="habesp" labelOnTop="0"/>
-    <field name="hablabel" labelOnTop="0"/>
-    <field name="hautarbo" labelOnTop="0"/>
-    <field name="hautarbu" labelOnTop="0"/>
-    <field name="hautbryo" labelOnTop="0"/>
-    <field name="hautherb" labelOnTop="0"/>
-    <field name="hic" labelOnTop="0"/>
-    <field name="microhab" labelOnTop="0"/>
-    <field name="microhabar" labelOnTop="0"/>
-    <field name="microhabarbre" labelOnTop="0"/>
-    <field name="notes" labelOnTop="0"/>
-    <field name="obs" labelOnTop="0"/>
-    <field name="pente" labelOnTop="0"/>
-    <field name="photo1" labelOnTop="0"/>
-    <field name="photo2" labelOnTop="0"/>
-    <field name="photo3" labelOnTop="0"/>
-    <field name="photo4" labelOnTop="0"/>
-    <field name="photo5" labelOnTop="0"/>
-    <field name="pvf2" labelOnTop="0"/>
-    <field name="recouvrsyn" labelOnTop="0"/>
-    <field name="recouvrsynusie" labelOnTop="0"/>
-    <field name="releve" labelOnTop="0"/>
-    <field name="relevesynu" labelOnTop="0"/>
-    <field name="relevesynusie" labelOnTop="0"/>
-    <field name="stratearbo" labelOnTop="0"/>
-    <field name="stratearbu" labelOnTop="0"/>
-    <field name="stratebryo" labelOnTop="0"/>
-    <field name="strateherb" labelOnTop="0"/>
-    <field name="stratesynu" labelOnTop="0"/>
-    <field name="stratesynusie" labelOnTop="0"/>
-    <field name="sufacem2" labelOnTop="0"/>
-    <field name="tauxeee" labelOnTop="0"/>
-    <field name="vu" labelOnTop="0"/>
-    <field name="x" labelOnTop="0"/>
-    <field name="y" labelOnTop="0"/>
-    <field name="zh" labelOnTop="0"/>
+    <field labelOnTop="0" name="altitude"/>
+    <field labelOnTop="0" name="catminat"/>
+    <field labelOnTop="0" name="cbbiotope"/>
+    <field labelOnTop="0" name="couleur"/>
+    <field labelOnTop="0" name="date"/>
+    <field labelOnTop="0" name="dynamique"/>
+    <field labelOnTop="0" name="enjeu_ecol"/>
+    <field labelOnTop="0" name="enjeu_ecologique"/>
+    <field labelOnTop="0" name="etat_conse"/>
+    <field labelOnTop="0" name="etat_conservation"/>
+    <field labelOnTop="0" name="eunis1"/>
+    <field labelOnTop="0" name="eunis2"/>
+    <field labelOnTop="0" name="eunis2022"/>
+    <field labelOnTop="0" name="exposition"/>
+    <field labelOnTop="0" name="fid"/>
+    <field labelOnTop="0" name="fonction"/>
+    <field labelOnTop="0" name="gesiton"/>
+    <field labelOnTop="0" name="gestion"/>
+    <field labelOnTop="0" name="habesp"/>
+    <field labelOnTop="0" name="hablabel"/>
+    <field labelOnTop="0" name="hautarbo"/>
+    <field labelOnTop="0" name="hautarbu"/>
+    <field labelOnTop="0" name="hautbryo"/>
+    <field labelOnTop="0" name="hautherb"/>
+    <field labelOnTop="0" name="hic"/>
+    <field labelOnTop="0" name="microhab"/>
+    <field labelOnTop="0" name="microhabar"/>
+    <field labelOnTop="0" name="microhabarbre"/>
+    <field labelOnTop="0" name="notes"/>
+    <field labelOnTop="0" name="obs"/>
+    <field labelOnTop="0" name="pente"/>
+    <field labelOnTop="0" name="photo1"/>
+    <field labelOnTop="0" name="photo2"/>
+    <field labelOnTop="0" name="photo3"/>
+    <field labelOnTop="0" name="photo4"/>
+    <field labelOnTop="0" name="photo5"/>
+    <field labelOnTop="0" name="pvf2"/>
+    <field labelOnTop="0" name="recouvrsyn"/>
+    <field labelOnTop="0" name="recouvrsynusie"/>
+    <field labelOnTop="0" name="releve"/>
+    <field labelOnTop="0" name="relevesynu"/>
+    <field labelOnTop="0" name="relevesynusie"/>
+    <field labelOnTop="0" name="stade"/>
+    <field labelOnTop="0" name="stratearbo"/>
+    <field labelOnTop="0" name="stratearbu"/>
+    <field labelOnTop="0" name="stratebryo"/>
+    <field labelOnTop="0" name="strateherb"/>
+    <field labelOnTop="0" name="stratesynu"/>
+    <field labelOnTop="0" name="stratesynusie"/>
+    <field labelOnTop="0" name="sufacem2"/>
+    <field labelOnTop="0" name="tauxeee"/>
+    <field labelOnTop="0" name="vu"/>
+    <field labelOnTop="0" name="x"/>
+    <field labelOnTop="0" name="y"/>
+    <field labelOnTop="0" name="zh"/>
   </labelOnTop>
   <reuseLastValue>
     <field reuseLastValue="0" name="altitude"/>
@@ -1747,6 +1785,7 @@ def my_form_open(dialog, layer, feature):
     <field reuseLastValue="0" name="releve"/>
     <field reuseLastValue="0" name="relevesynu"/>
     <field reuseLastValue="0" name="relevesynusie"/>
+    <field reuseLastValue="0" name="stade"/>
     <field reuseLastValue="0" name="stratearbo"/>
     <field reuseLastValue="0" name="stratearbu"/>
     <field reuseLastValue="0" name="stratebryo"/>
