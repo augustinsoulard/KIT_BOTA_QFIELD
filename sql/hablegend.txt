@@ -38,3 +38,23 @@
 		,'-'||"HABLABEL"),
 	'<em>','' ),
 '</em>','') 
+
+
+#########################################QFLORE mise à jour nom typologie
+if("Nom" IS NULL,
+attribute(
+get_feature('EUNIS','LB_CODE' , "EUNIS_1" ),
+'LB_HAB_FR'
+)||  if( attribute(
+get_feature('EUNIS','LB_CODE' , "EUNIS_2" ),
+'LB_HAB_FR'
+) IS NULL,'',' x '||
+attribute(
+get_feature('EUNIS','LB_CODE' , "EUNIS_2" ),
+'LB_HAB_FR'))||  if( attribute(
+get_feature('EUNIS','LB_CODE' , "EUNIS_3" ),
+'LB_HAB_FR'
+) IS NULL,'',' x '||
+attribute(
+get_feature('EUNIS','LB_CODE' , "EUNIS_3" ),
+'LB_HAB_FR')),"Nom")
